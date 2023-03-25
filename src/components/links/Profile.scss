@@ -1,0 +1,72 @@
+@import "../../index.scss";
+
+.profile__container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  gap: 4rem;
+}
+
+.profile__details {
+  width: 50rem;
+  height: 55rem;
+  padding: $padding-medium;
+  margin-top: 4rem;
+  background-color: $color-secondary;
+  font-family: $font-poppins;
+}
+
+.profile__picture {
+  width: 100%;
+  height: 45rem;
+}
+
+.profile__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  &-title {
+    font-size: $font-medium;
+    letter-spacing: $letter-small;
+    word-spacing: $word-medium;
+    font-weight: $font-semi-bold;
+    color: $color-main;
+  }
+
+  &-icon {
+    font-size: $font-large;
+    color: #252525;
+  }
+}
+
+.profile__username {
+  font-family: $font-poppins;
+  color: $color-main;
+  font-size: $font-medium;
+  font-weight: $font-semi-bold;
+  letter-spacing: $letter-small;
+  padding-top: $padding-small;
+
+  span {
+    font-size: $font-small;
+    font-weight: $font-regular;
+    padding-left: $padding-input;
+    letter-spacing: $letter-medium;
+  }
+}

@@ -1,0 +1,45 @@
+@import "../../index.scss";
+
+.reviews__container {
+  padding: $padding-extra-big;
+
+  &-title {
+    font-family: $font-poppins;
+    margin-bottom: $margin-big;
+    font-size: $font-extra-big;
+    color: $color-secondary;
+    letter-spacing: $letter-medium;
+  }
+}
+
+.slide {
+  background-color: $color-main;
+  height: 25rem;
+  border-radius: $rounded-small;
+  color: $color-secondary;
+  font-family: $font-poppins;
+
+  &__name {
+    text-align: center;
+    font-size: $font-medium;
+    padding-top: $padding-medium;
+    letter-spacing: $letter-small;
+    word-spacing: $word-small;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: $font-big;
+    padding-bottom: $padding-medium;
+    letter-spacing: $letter-small;
+    word-spacing: $word-medium;
+  }
+
+  &__description {
+    padding-left: $padding-small;
+    font-size: $font-small;
+    line-height: 1.7;
+    letter-spacing: $letter-small;
+    word-spacing: $word-medium;
+  }
+}

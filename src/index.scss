@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// colors
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-main: #1f1c2c;
+$color-secondary: #928dab;
+
+// fonts and typographic hierarchy
+
+$font-poppins: "Poppins", sans-serif;
+
+$font-extra-small: 1.35rem;
+$font-small: 1.6rem;
+$font-medium: 2rem;
+$font-big: 3rem;
+$font-extra-big: 5rem;
+$font-large: 6rem;
+
+$font-light: 200;
+$font-regular: 400;
+$font-semi-bold: 500;
+$font-bold: 700;
+
+$letter-small: 0.1rem;
+$letter-medium: 0.15rem;
+$letter-big: 0.25rem;
+
+$word-small: 0.1rem;
+$word-medium: 0.15rem;
+$word-big: 0.25rem;
+
+// spacing
+
+$padding-input: 0.4rem;
+
+$padding-extra-small: 1rem;
+$padding-small: 1.6rem;
+$padding-medium: 2.4rem;
+$padding-big: 4rem;
+$padding-extra-big: 12rem;
+
+$margin-extra-small: 1rem;
+$margin-small: 1.6rem;
+$margin-medium: 2.4rem;
+$margin-big: 4rem;
+$margin-extra-big: 8rem;
+
+// shadows
+
+$box-shadown-small: 0 0.8rem 1.6rem 0 rgba($color-black, 0.25);
+$box-shadown-medium: 0 1rem 2rem 0 rgba($color-black, 0.3);
+$box-shadown-big: 0 1.2rem 2.4rem 0 rgba($color-black, 0.35);
+
+// border-radius
+
+$rounded-extra-small: 1rem;
+$rounded-small: 2rem;
+$rounded-medium: 4rem;
+$rounded-big: 10rem;
+
+html {
+  font-size: 62.5%;
+}

@@ -1,0 +1,60 @@
+@import "../../index.scss";
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: $font-poppins;
+
+  &__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    color: $color-secondary;
+    cursor: pointer;
+
+    &-items {
+      width: 4.4rem;
+      height: 4.4rem;
+      padding: 0.8rem;
+      transition: all 0.35s;
+
+      &:hover {
+        background-color: rgba($color-white, 0.1);
+        border-radius: $rounded-big;
+        box-shadow: $box-shadown-medium;
+        color: $color-white;
+      }
+    }
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: $padding-medium;
+    list-style: none;
+    gap: 2.4rem;
+    font-size: $font-medium;
+    color: $color-secondary;
+
+    &-items {
+      cursor: pointer;
+      transition: all 0.35s;
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+  }
+
+  &__copyright {
+    font-size: $font-medium;
+    color: $color-secondary;
+    font-weight: $font-semi-bold;
+    padding: $padding-medium 0;
+  }
+}

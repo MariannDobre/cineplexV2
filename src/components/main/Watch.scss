@@ -1,0 +1,31 @@
+@import "../../index.scss";
+
+.watch__container {
+  &-title {
+    font-size: $font-big;
+    font-family: $font-poppins;
+    font-weight: $font-semi-bold;
+    letter-spacing: $letter-small;
+    word-spacing: $word-small;
+    margin-bottom: $margin-medium;
+    padding-left: 11.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: $color-secondary;
+    cursor: default;
+
+    span {
+      width: 0.4rem;
+      height: 3rem;
+      background-color: #845ef7;
+      margin-right: $margin-extra-small;
+    }
+  }
+
+  &-icon {
+    margin-left: $margin-extra-small;
+    color: #845ef7;
+    cursor: pointer;
+  }
+}

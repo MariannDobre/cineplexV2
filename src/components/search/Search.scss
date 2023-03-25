@@ -1,0 +1,31 @@
+@import "../../index.scss";
+
+.search__container {
+  text-align: center;
+
+  &-input {
+    cursor: pointer;
+    margin: $margin-medium 0 $margin-medium 0;
+    border: 0.35rem solid $color-main;
+    outline: none;
+    background-color: rgba($color-white, 0.5);
+    width: 45rem;
+    border-radius: $rounded-medium;
+    padding: $padding-extra-small;
+    font-size: $font-medium;
+    color: $color-main;
+    box-shadow: $box-shadown-medium;
+    font-weight: $font-semi-bold;
+    letter-spacing: $letter-small;
+
+    &::selection {
+      color: #5f3dc4;
+      background-color: $color-main;
+    }
+
+    &::placeholder {
+      color: $color-main;
+      letter-spacing: $letter-small;
+    }
+  }
+}

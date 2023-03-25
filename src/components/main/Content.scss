@@ -1,0 +1,43 @@
+@import "../../index.scss";
+
+.content__container {
+  width: 85%;
+  height: 100vh;
+  padding: $padding-medium;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+// Scrollbar
+
+::-webkit-scrollbar {
+  width: 1.1rem;
+  height: 1.1rem;
+  background-color: #0f0c29;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $color-secondary;
+  border-radius: 0.6rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: $color-secondary;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0f0c29;
+}

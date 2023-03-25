@@ -1,0 +1,9 @@
+@import "../../index.scss";
+
+.cardlist__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  justify-items: center;
+  row-gap: 6rem;
+}
