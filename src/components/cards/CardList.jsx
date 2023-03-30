@@ -9,10 +9,12 @@ function CardList({ data }) {
         {data.map((card, index) => {
           return (
             <Card
+              nameUrl={card.nameUrl}
               key={data[index].id}
               name={data[index].name}
               year={data[index].year}
               image={data[index].imageUrl}
+              trailer={data[index].trailer}
             />
           );
         })}

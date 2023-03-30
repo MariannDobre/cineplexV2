@@ -1,0 +1,43 @@
+@import "../../index.scss";
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8); /* semi-transparent black */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* ensure the overlay is on top of everything else */
+
+  /* disable scrolling on the page */
+  overflow: hidden;
+}
+
+.iframe-container {
+  position: relative;
+  width: 80%; /* adjust the width as needed */
+  height: 0;
+  padding-bottom: 56.25%; /* set the aspect ratio to 16:9 */
+  overflow: hidden;
+
+  iframe {
+    position: absolute;
+    top: 12.5%;
+    left: 0;
+    width: 100%;
+    height: 70%;
+  }
+}
+
+.close-btn {
+  position: absolute;
+  top: 25%;
+  left: 12%;
+  font-size: 30px;
+  color: red;
+  cursor: pointer;
+  z-index: 9999; /* ensure the close button is on top of the iframe */
+}

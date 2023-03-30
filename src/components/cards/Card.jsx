@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import "./Card.scss";
 
 function Card(props) {
+  // console.log(props.nameUrl);
+
   return (
     <div className="card__container">
       <div className="card__container-header">
@@ -10,7 +12,7 @@ function Card(props) {
         <p className="card__container-header-subtitle">{props.year}</p>
       </div>
       <img src={props.image} alt="Poster" />
-      <Link to={`/movies/${props.id}`} className="card__container-button">
+      <Link to={`/movies/${props.nameUrl}`} className="card__container-button">
         View More
       </Link>
     </div>

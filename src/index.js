@@ -26,7 +26,11 @@ root.render(
         <Route path="/upcoming" element={<Upcoming />} />
         <Route path="/packages" element={<Packages />} />
         <Route path="/support" element={<Support />} />
-        <Route path={`/movies/${data.id}`} element={<MovieDetails />} />
+        <Route
+          path={`/movies/:nameUrl`}
+          element={<MovieDetails data={data} />}
+        />
+        {/* <Route path={`/movies/${data.id}`} element={<MovieDetails />} /> */}
       </Routes>
     </Router>
   </React.StrictMode>
