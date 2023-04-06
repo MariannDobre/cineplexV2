@@ -14,7 +14,7 @@ function Nav() {
   return (
     <div className="nav__container">
       <h2 className="nav__container-title">
-        Cine<span>plex</span>
+        Cine<span>Plex</span>
       </h2>
 
       <ul className="nav__container-ul">

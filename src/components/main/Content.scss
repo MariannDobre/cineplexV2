@@ -19,6 +19,36 @@
     #302b63,
     #0f0c29
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 400% 400% !important;
+  animation: animatedGradient 7.5s ease infinite;
+
+  &-load {
+    text-align: center;
+    margin-top: $margin-extra-big;
+
+    &-item {
+      font-size: 1.8rem;
+      padding: $padding-input $padding-small;
+      letter-spacing: $letter-small;
+      word-spacing: $word-medium;
+      border-radius: $rounded-medium;
+      outline: none;
+      border: 0.25rem solid $color-secondary;
+      box-shadow: $box-shadown-small;
+      background-color: $color-secondary;
+      color: $color-main;
+      cursor: pointer;
+      transition: all 0.75s;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $color-main;
+        border: 0.25rem solid $color-main;
+        color: #845ef7;
+        transform: scale(1.15);
+      }
+    }
+  }
 }
 
 // Scrollbar

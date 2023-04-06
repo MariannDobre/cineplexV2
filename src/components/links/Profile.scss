@@ -2,7 +2,14 @@
 
 .profile__container {
   display: flex;
-  width: 100%;
+}
+
+.profile__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
   height: 100vh;
   background: #0f0c29; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -17,56 +24,119 @@
     #302b63,
     #0f0c29
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  gap: 4rem;
-}
+  background-size: 400% 400% !important;
+  animation: animatedGradient 7.5s ease infinite;
 
-.profile__details {
-  width: 50rem;
-  height: 55rem;
-  padding: $padding-medium;
-  margin-top: 4rem;
-  background-color: $color-secondary;
-  font-family: $font-poppins;
-}
+  &-box {
+    background: $color-main; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right bottom,
+      $color-main,
+      $color-main,
+      rgba(48, 43, 99, 0.05),
+      $color-main,
+      $color-main,
+      #302b63
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right bottom,
+      $color-main,
+      $color-main,
+      rgba(48, 43, 99, 0.05),
+      $color-main,
+      $color-main,
+      #302b63
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: $padding-big;
+    margin-bottom: $margin-big;
+    box-shadow: $box-shadown-medium;
+    border-radius: $rounded-small;
+    font-family: $font-poppins;
+  }
 
-.profile__picture {
-  width: 100%;
-  height: 45rem;
-}
+  &-picture {
+    width: 32.5rem;
+    height: 37.5rem;
+    border-radius: $rounded-extra-small;
+    box-shadow: $box-shadown-small;
+  }
 
-.profile__wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
 
-  &-title {
+    &-title {
+      font-size: $font-medium;
+      letter-spacing: $letter-small;
+      word-spacing: $word-medium;
+      font-weight: $font-semi-bold;
+      color: #845ef7;
+    }
+
+    &-icon {
+      font-size: 10rem;
+      color: $color-secondary;
+    }
+
+    &-label {
+      cursor: pointer;
+      font-size: $font-medium;
+      color: $color-main;
+      border: 0.35rem solid $color-main;
+      background-color: $color-secondary;
+      box-shadow: $box-shadown-medium;
+      padding: $padding-input $padding-medium;
+      letter-spacing: $letter-medium;
+      word-spacing: $word-medium;
+      font-weight: $font-semi-bold;
+      border-radius: $rounded-medium;
+      transition: all 0.75s;
+
+      &:hover {
+        background-color: $color-main;
+        color: #845ef7;
+        box-shadow: $box-shadown-big;
+        scale: 1.125;
+      }
+    }
+
+    &-input {
+      display: none;
+    }
+  }
+
+  &-username {
+    color: #845ef7;
     font-size: $font-medium;
-    letter-spacing: $letter-small;
-    word-spacing: $word-medium;
     font-weight: $font-semi-bold;
-    color: $color-main;
+    letter-spacing: $letter-small;
+    padding-top: $padding-small;
+
+    span {
+      font-size: $font-small;
+      font-weight: $font-regular;
+      padding-left: $padding-input;
+      letter-spacing: $letter-medium;
+      color: $color-secondary;
+    }
   }
 
-  &-icon {
-    font-size: $font-large;
-    color: #252525;
-  }
-}
+  &-password {
+    color: #845ef7;
+    font-size: $font-medium;
+    font-weight: $font-semi-bold;
+    letter-spacing: $letter-small;
+    padding-top: $padding-small;
 
-.profile__username {
-  font-family: $font-poppins;
-  color: $color-main;
-  font-size: $font-medium;
-  font-weight: $font-semi-bold;
-  letter-spacing: $letter-small;
-  padding-top: $padding-small;
-
-  span {
-    font-size: $font-small;
-    font-weight: $font-regular;
-    padding-left: $padding-input;
-    letter-spacing: $letter-medium;
+    span {
+      font-size: $font-small;
+      font-weight: $font-regular;
+      padding-left: $padding-input;
+      letter-spacing: $letter-medium;
+      color: $color-secondary;
+    }
   }
 }

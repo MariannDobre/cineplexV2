@@ -4,15 +4,19 @@
   background: $color-main; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right bottom,
+    $color-secondary,
     $color-main,
     $color-secondary
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right bottom,
+    $color-secondary,
     $color-main,
     $color-secondary
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100vh;
+  background-size: 400% 400% !important;
+  animation: animatedGradient 7.5s ease infinite;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,15 +27,17 @@
     background: #8e9eab; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right bottom,
-      rgba(142, 158, 171, 0.4),
-      rgba(238, 242, 243, 0.75)
+      rgba(238, 242, 243, 0.75),
+      rgba(142, 158, 171, 0.4)
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to right bottom,
-      rgba(142, 158, 171, 0.4),
-      rgba(238, 242, 243, 0.75)
+      rgba(238, 242, 243, 0.75),
+      rgba(142, 158, 171, 0.4)
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
+    background-size: 400% 400% !important;
+    animation: animatedGradient 7.5s ease infinite;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -42,16 +48,16 @@
   }
 
   &-title {
-    color: $color-main;
+    color: #845ef7;
     font-size: $font-large;
     font-weight: $font-regular;
     margin-bottom: $margin-medium;
-    text-shadow: 0 0.3rem 0.3rem $color-main;
+    filter: drop-shadow(0.25rem 0.25rem 0.65rem $color-main);
 
     span {
-      color: #845ef7;
-      font-weight: $font-bold;
-      font-size: $font-extra-big;
+      color: $color-main;
+      font-weight: $font-regular;
+      font-size: $font-large;
     }
   }
 
@@ -60,6 +66,7 @@
     letter-spacing: $letter-medium;
     font-weight: $font-semi-bold;
     color: $color-main;
+    filter: drop-shadow(0.15rem 0.15rem 0.25rem $color-main);
   }
 
   &-label {
@@ -141,11 +148,12 @@
     outline: none;
     border: 0.25rem solid $color-main;
     box-shadow: $box-shadown-small;
-    transition: all 0.35s;
+    transition: all 0.75s;
 
     &:hover {
       background-color: $color-main;
       color: #5f3dc4;
+      scale: 1.15;
     }
   }
 
@@ -184,6 +192,7 @@
     transform: translateX(0);
   }
 }
+
 @keyframes slide-right {
   0% {
     -webkit-transform: translateX(-13.5rem);

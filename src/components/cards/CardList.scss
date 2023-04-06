@@ -2,8 +2,8 @@
 
 .cardlist__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-content: center;
   justify-items: center;
-  row-gap: 6rem;
+  row-gap: 8rem;
 }

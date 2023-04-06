@@ -7,13 +7,19 @@
     font-weight: $font-semi-bold;
     letter-spacing: $letter-small;
     word-spacing: $word-small;
-    margin-bottom: $margin-medium;
-    padding-left: 11.4rem;
+    margin-top: $margin-extra-big;
+    margin-bottom: $margin-big;
+    // padding-left: 11.4rem;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     color: $color-secondary;
     cursor: default;
+
+    &::selection {
+      background-color: #845ef7;
+      color: $color-main;
+    }
 
     span {
       width: 0.4rem;

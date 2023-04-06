@@ -1,18 +1,230 @@
 @import "../../index.scss";
 
+.navigation {
+  width: 100%;
+  height: 7.75rem;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: $color-main; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right bottom,
+    $color-main,
+    $color-secondary
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right bottom,
+    $color-main,
+    $color-secondary
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: $font-poppins;
+  padding: 0 $padding-big;
+  // filter: drop-shadow(0.25rem 0.25rem 1.25rem $color-black);
+  box-shadow: $box-shadown-big;
+  z-index: 10;
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $font-extra-big;
+    font-weight: $font-regular;
+    color: #845ef7;
+    text-shadow: 0 0.32rem 0.32rem $color-main;
+
+    span {
+      color: $color-main;
+      font-weight: $font-regular;
+    }
+  }
+}
+
+.details__container {
+  display: flex;
+  flex-direction: column;
+
+  &-bg {
+    height: 100vh;
+    background-color: #ced4da;
+  }
+
+  &-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55rem;
+    filter: drop-shadow(1rem 0.25rem 1.25rem $color-black);
+  }
+
+  &-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+  }
+
+  &-watch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    &-image {
+      width: 25rem;
+      height: 37.5rem;
+      filter: drop-shadow(0.5rem 0.5rem 1.35rem $color-black);
+    }
+
+    &-button {
+      background-color: transparent;
+      border: 0.25rem solid $color-white;
+      padding: $padding-input $padding-medium;
+      border-radius: $rounded-medium;
+      font-size: $font-medium;
+      font-weight: $font-semi-bold;
+      letter-spacing: $letter-small;
+      word-spacing: $word-medium;
+      cursor: pointer;
+      color: $color-white;
+      box-shadow: $box-shadown-small;
+      transition: all 0.75s;
+
+      &:hover {
+        transform: translateY(-0.4rem);
+        box-shadow: $box-shadown-big;
+        scale: 1.05;
+        background-color: rgba($color-white, 0.15);
+      }
+    }
+  }
+
+  &-about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: $font-poppins;
+
+    &-name {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+
+      &-title {
+        font-size: $font-extra-big;
+        font-weight: $font-semi-bold;
+        color: $color-white;
+        letter-spacing: $letter-medium;
+        word-spacing: $word-medium;
+      }
+
+      &-year {
+        font-size: $font-medium;
+        font-weight: $font-regular;
+        color: #dee2e6;
+        letter-spacing: $letter-small;
+        word-spacing: $word-small;
+      }
+    }
+
+    &-type {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 0.65rem;
+      margin-bottom: $margin-small;
+
+      &-about {
+        font-size: $font-medium;
+        font-weight: $font-regular;
+        color: $color-white;
+        letter-spacing: $letter-medium;
+      }
+
+      &-duration {
+        font-size: $font-small;
+        font-weight: $font-regular;
+        color: #dee2e6;
+        letter-spacing: $letter-small;
+      }
+    }
+
+    &-score {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 0.65rem;
+
+      &-users {
+        font-size: $font-small;
+        font-weight: $font-regular;
+        color: #dee2e6;
+        letter-spacing: $letter-small;
+      }
+
+      &-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: $padding-extra-small;
+        font-size: $font-small;
+        border-radius: $rounded-big;
+        border: none;
+        outline: none;
+        color: $color-white;
+        background-color: #1e282f;
+        margin-left: $margin-small;
+        filter: drop-shadow(0.35rem 0.35rem 1.35rem $color-black);
+        cursor: pointer;
+        transition: all 0.75s;
+
+        &:hover {
+          background-color: rgba(#1e282f, 0.85);
+          scale: 1.075;
+        }
+      }
+    }
+
+    &-presentation {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      margin-top: $margin-small;
+      gap: 0.65rem;
+
+      &-title {
+        font-size: $font-medium;
+        font-weight: $font-regular;
+        color: $color-white;
+        letter-spacing: $letter-medium;
+      }
+
+      &-description {
+        font-size: $font-small;
+        font-weight: $font-regular;
+        color: #dee2e6;
+        letter-spacing: $letter-small;
+      }
+    }
+  }
+}
+
+//
+
 .overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8); /* semi-transparent black */
+  background: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 999; /* ensure the overlay is on top of everything else */
-
-  /* disable scrolling on the page */
+  z-index: 999;
   overflow: hidden;
 }
 
@@ -40,4 +252,47 @@
   color: red;
   cursor: pointer;
   z-index: 9999; /* ensure the close button is on top of the iframe */
+}
+
+//
+
+.outer__ring {
+  position: relative;
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #1e282f;
+}
+
+.user_score_chart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.user_score_chart canvas {
+  position: absolute;
+  top: 0.45rem;
+  left: 0.45rem;
+  width: 5rem;
+  height: 5rem;
+  z-index: 1;
+}
+
+.percent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  color: $color-white;
+  font-size: $font-small;
 }

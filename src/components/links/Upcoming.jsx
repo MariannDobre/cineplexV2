@@ -1,7 +1,13 @@
 import React from "react";
+import Nav from "../nav/Nav";
 
 function Upcoming() {
-  return <div>Upcoming</div>;
+  return (
+    <div>
+      <Nav />
+      Upcoming
+    </div>
+  );
 }
 
 export default Upcoming;

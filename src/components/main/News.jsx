@@ -2,25 +2,28 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./Reviews.scss";
+import "./News.scss";
 
-import { reviews } from "../reviews";
+import { news } from "../news";
 
-function Reviews() {
+function News() {
   const settings = {
-    dots: true,
+    arrows: false,
     infinite: true,
-    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
+    speed: 9250,
+    autoplaySpeed: 1,
+    cssEase: "linear",
   };
 
   return (
     <div className="reviews__container">
-      <h1 className="reviews__container-title">Reviews</h1>
+      <h1 className="reviews__container-title">News</h1>
       <Slider {...settings}>
-        {reviews.map((post, index) => (
-          <div className="slide" key={reviews[index].id}>
+        {news.map((post, index) => (
+          <div className="slide" key={news[index].id}>
             <p className="slide__name">{post.name}</p>
             <p className="slide__title">"{post.title}"</p>
             <p className="slide__description">{post.description}</p>
@@ -31,4 +34,4 @@ function Reviews() {
   );
 }
 
-export default Reviews;
+export default News;

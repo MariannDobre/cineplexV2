@@ -4,9 +4,26 @@ export const data = [
     name: "Legend",
     nameUrl: "legend",
     year: "2015",
+    duration: "2h 11m",
     type: "Biography, Crime, Drama",
+    score: "70",
+    trailer: "https://www.youtube.com/embed/WVHlrfzLjd4",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMjE0MjkyODQ3NF5BMl5BanBnXkFtZTgwNDM1OTk1NjE@._V1_QL75_UY281_CR1,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/f5KhJ6JNTZTnvjCa81BBU6bOp8X.jpg",
+    poster:
+      "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/4shf5Alq4KWCKqrAAQe0JGJHYp5.jpg",
+    originalTitle: "Legend",
+    state: "Released",
+    language: "English",
+    budget: "$25,000,000.00",
+    income: "$42,972,994.00",
+    bgColor: "rgba(241.5, 94.5, 52.5, 1)",
+    trackColor: "#204529",
+    barColor: "#21d07a",
+    presentation:
+      "Identical twin gangsters Ronald and Reginald Kray terrorize London during the 1960s.",
+    director: "Brian Helgeland",
+    writters: "Brian Helgeland ● John Pearson",
   },
   {
     id: "2",
@@ -16,7 +33,7 @@ export const data = [
     type: "",
     trailer: "https://www.youtube.com/embed/9GgxinPwAGc",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BODk4ZjU0NDUtYjdlOS00OTljLTgwZTUtYjkyZjk1NzExZGIzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/tNyJxHK3m7NAAKNYITLJ5oxS0YR.jpg",
   },
   {
     id: "3",
@@ -24,7 +41,7 @@ export const data = [
     nameUrl: "the witcher",
     year: "2019",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BN2FiOWU4YzYtMzZiOS00MzcyLTlkOGEtOTgwZmEwMzAxMzA3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
   },
   {
     id: "4",
@@ -32,7 +49,7 @@ export const data = [
     nameUrl: "cobra kai",
     year: "2018",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BYWU4ZmI0NTItZjcyNy00MzQ5LThiNDQtZDZkNjg1NWUwN2RhXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/dZJV3EUpHrnL36SfuCDkIcsw0ff.jpg",
   },
   {
     id: "5",
@@ -40,7 +57,7 @@ export const data = [
     nameUrl: "sweet girl",
     year: "2021",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BOGIzOTZiZjItNTMyYS00ODcyLWE2ZDUtYWNjZDNmNTUxYjVkXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/bOJZC4ToKWaDyypUOGTLbgT0MeO.jpg",
   },
   {
     id: "6",
@@ -48,7 +65,7 @@ export const data = [
     nameUrl: "creed iii",
     year: "2023",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BYWY1ZDY4MmQtYjhiYS00N2QwLTk1NzgtOWI2YzUwZThjNDYwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/nZ4zKX9yfvZHRk5zK3vgwF3N4iE.jpg",
   },
   {
     id: "7",
@@ -58,7 +75,7 @@ export const data = [
     type: "",
     trailer: "",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMjI1MTcwODk0MV5BMl5BanBnXkFtZTgwMTgwMDM5NTE@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/fbkqdmlg4fhlmLh5iVC72Hpljbf.jpg",
   },
   {
     id: "8",
@@ -68,7 +85,7 @@ export const data = [
     type: "",
     trailer: "https://www.youtube.com/embed/84TouqfIsiI",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BZTJiNGM2NjItNDRiYy00ZjY0LTgwNTItZDBmZGRlODQ4YThkL2ltYWdlXkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/9pkZesKMnblFfKxEhQx45YQ2kIe.jpg",
   },
   {
     id: "9",
@@ -76,7 +93,7 @@ export const data = [
     nameUrl: "peaky blinders",
     year: "2013",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_QL75_UY281_CR18,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/8V1XPEDLtJoxOWlE6gYzn2sQaMp.jpg",
   },
   {
     id: "10",
@@ -84,7 +101,7 @@ export const data = [
     nameUrl: "klaus",
     year: "2019",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMWYwOThjM2ItZGYxNy00NTQwLWFlZWEtM2MzM2Q5MmY3NDU5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/2u1YG0pgm5bIOXO2OVWLNdMl23f.jpg",
   },
   {
     id: "11",
@@ -92,7 +109,7 @@ export const data = [
     nameUrl: "breaking bad",
     year: "2008-2013",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BN2VjOTkwMjgtYWEyMy00MzNmLTllMjktNDI1ZmRhYTAwYTg1XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/b5rOkbQ0jKYvBqBf3bwJ6nXBOtx.jpg",
   },
   {
     id: "12",
@@ -100,15 +117,17 @@ export const data = [
     nameUrl: "chernobyl",
     year: "2019",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BZTg4NTUzNGQtY2I4YS00ZDAxLWFhNjAtMDNiMjc3NjY2NGI5XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UY281_CR4,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/900tHlUYUkp7Ol04XFSoAaEIXcT.jpg",
   },
   {
     id: "13",
-    name: "Halloween: Ends",
-    nameUrl: "halloween: ends",
-    year: "2022",
+    name: "It Chapter Two",
+    nameUrl: "it chapter two",
+    year: "2019",
+    type: "Drama, Fantasy, Horror",
+    trailer: "",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BZTg1Y2Q3MzctMDlkOS00OGE1LWE4MjUtNmJjNDNkZmM2YmVkXkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/svNRA2g5P8ubg7H5SugRZ5rJOiu.jpg",
   },
   {
     id: "14",
@@ -116,7 +135,7 @@ export const data = [
     nameUrl: "wolfblood",
     year: "2012-2017",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BYmM0NDhmODYtOGFhNy00MzNiLThlM2YtOGI2ODdiNThiNDQ3XkEyXkFqcGdeQXVyNTA3MTU2MjE@._V1_QL75_UY281_CR4,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/A1DH4U71Ztty5wnB01QmdtxGeU5.jpg",
   },
   {
     id: "15",
@@ -124,7 +143,7 @@ export const data = [
     nameUrl: "minions",
     year: "2015",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMTg2MTMyMzU0M15BMl5BanBnXkFtZTgwOTU3ODk4NTE@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/4JaVWzbHr8l0phTzT7OyedsN0ia.jpg",
   },
   {
     id: "16",
@@ -132,7 +151,7 @@ export const data = [
     nameUrl: "gravity falls",
     year: "2012-2016",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMTEzNDc3MDQ2NzNeQTJeQWpwZ15BbWU4MDYzMzUwMDIx._V1_QL75_UX190_CR0,7,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/oNyjhBxQsYKnKdhnm4nQqQ9gAuX.jpg",
   },
   {
     id: "17",
@@ -140,7 +159,7 @@ export const data = [
     nameUrl: "warrior",
     year: "2011",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMTk4ODk5MTMyNV5BMl5BanBnXkFtZTcwMDMyNTg0Ng@@._V1_QL75_UX190_CR0,6,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/pR4B78SpWlhnDypkof9CXGFIXqT.jpg",
   },
   {
     id: "18",
@@ -148,7 +167,7 @@ export const data = [
     nameUrl: "adventure time",
     year: "2010-2018",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMGFkNGY4NGMtZjY0NC00YTI0LThiZjMtMjBmZGMzOGU3YTdmXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_QL75_UX190_CR0,1,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/AsItSkBCgtbVyXX1aDwcev51AX5.jpg",
   },
   {
     id: "19",
@@ -156,7 +175,7 @@ export const data = [
     nameUrl: "the dictator",
     year: "2012",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BNTlkOWYzZDYtNzQ1MS00YTNkLTkyYTItMjBmNjgyMDBlMjI4XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/wGXnUgT8RtFZJM4NnzVOfaR6dJw.jpg",
   },
   {
     id: "20",
@@ -164,7 +183,7 @@ export const data = [
     nameUrl: "regular show",
     year: "2009-2017",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BNWJjZjQ5NWUtMTkwZC00NGY2LWEyMDEtMGIyZThkMmMyZTZlXkEyXkFqcGdeQXVyMTI2MzY3NTA3._V1_QL75_UX190_CR0,2,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/bhF63Jd90gRYyTHd4y5GCGA2vX6.jpg",
   },
   {
     id: "21",
@@ -172,7 +191,7 @@ export const data = [
     nameUrl: "mr. robot",
     year: "2015-2019",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BM2QyNDIzOGMtNThhNS00NmUwLWI0ZjUtZjdkN2I1OTRjZWQ3XkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_QL75_UY281_CR4,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/5e0uvFYJ0uIOi84XsaSgrzTM0wb.jpg",
   },
   {
     id: "22",
@@ -182,7 +201,7 @@ export const data = [
     type: "Action, Comedy, Thriller",
     trailer: "https://www.youtube.com/embed/Pj0wz7zu3Ms",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BZmRjODgyMzEtMzIxYS00OWY2LTk4YjUtMGMzZjMzMTZiN2Q0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/5uVhMGsps81CN0S4U9NF0Z4tytG.jpg",
   },
   {
     id: "23",
@@ -192,7 +211,7 @@ export const data = [
     type: "Action, Comedy, Thriller",
     trailer: "https://www.youtube.com/embed/0IOsk2Vlc4o",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BNjI1MGE5YTYtYmFmOC00OWQwLTgwODQtMmRiOTQwNmVlY2JkXkEyXkFqcGdeQXVyMzQ0NTgwMTQ@._V1_QL75_UY281_CR9,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/83oeqwN64WtafGoITvsOzjKIQaM.jpg",
   },
   {
     id: "24",
@@ -202,7 +221,7 @@ export const data = [
     type: "Action, Thriller",
     trailer: "https://www.youtube.com/embed/NhYH26KTNbQ",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMTcxNDYzMjU1Ml5BMl5BanBnXkFtZTcwMTYzOTM3Mg@@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/xdIsccWAECo0YF9aTrPoMFUZiJo.jpg",
   },
   {
     id: "25",
@@ -212,7 +231,7 @@ export const data = [
     type: "Crime, Drama, Mystery",
     trailer: "https://www.youtube.com/embed/-WYdUaK54fU",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMTU1OTdjYTUtMzA2MS00Njg4LWI1NTctMWUzYzNkNmQ5YWY3XkEyXkFqcGdeQXVyMTUwMzM5ODkz._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/fITEnpLE3IHVXLYsX80CSetrz0f.jpg",
   },
   {
     id: "26",
@@ -222,7 +241,7 @@ export const data = [
     type: "Comedy, Drama, Romance",
     trailer: "https://www.youtube.com/embed/lptctjAT-Mk",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BYjg0OTY5N2UtZDljZS00NDc2LWI1MDAtMDdmN2Q3OTNkMjA1XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/txASbb3KACAhfVZaJF2yAIGhTUo.jpg",
   },
   {
     id: "27",
@@ -232,7 +251,7 @@ export const data = [
     type: "Action, Drama, Mystery",
     trailer: "https://www.youtube.com/embed/oqxAJKy0ii4",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BYWE3MDVkN2EtNjQ5MS00ZDQ4LTliNzYtMjc2YWMzMDEwMTA3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/qw3J9cNeLioOLoR68WX7z79aCdK.jpg",
   },
   {
     id: "28",
@@ -242,7 +261,7 @@ export const data = [
     type: "Action, Crime, Thriller",
     trailer: "https://www.youtube.com/embed/C0BMx-qxsP4",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/9berBuak0aID66n4MIZTxkxzqyO.jpg",
   },
   {
     id: "29",
@@ -252,7 +271,7 @@ export const data = [
     type: "Crime, Drama",
     trailer: "https://www.youtube.com/embed/eJdywN-g-YM",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMmMxMmRiODItYTg5NS00ZWU0LTlhMmYtNDQ1NjFlNGZmYjNiXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/oT1IE1GWRs4OWdBDA4u7hZaF6Oa.jpg",
   },
   {
     id: "30",
@@ -262,7 +281,7 @@ export const data = [
     type: "Animation, Action, Adventure",
     trailer: "https://www.youtube.com/embed/h2TlJpmx_7M",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BNWQ1YWI0YjgtNWNmYy00NTY0LWJjZjgtMGFmMDU1OGM5Y2FiXkEyXkFqcGdeQXVyMTA3MzQ4MTg0._V1_QL75_UY281_CR4,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/hB9qlweWumNlMbdtTjCxC8AQuZc.jpg",
   },
   {
     id: "31",
@@ -272,7 +291,7 @@ export const data = [
     type: "Action, Comedy, Crime",
     trailer: "https://www.youtube.com/embed/Ify9S7hj480",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMTlkMmVmYjktYTc2NC00ZGZjLWEyOWUtMjc2MDMwMjQwOTA5XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/s6fSFATmgD0gcuTgXJNJAyktHzi.jpg",
   },
   {
     id: "32",
@@ -282,7 +301,7 @@ export const data = [
     type: "Animation, Adventure, Comedy",
     trailer: "https://www.youtube.com/embed/kP9TfCWaQT4",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BYzE3ODhiNzAtOWY4MS00NTdiLThmNDctNDM4NjRiNGFmYjI1XkEyXkFqcGdeQXVyMTI2ODM1ODUw._V1_QL75_UY281_CR18,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/7IrQ5vwmTHppBCf51HRFzSd7xMi.jpg",
   },
   {
     id: "33",
@@ -292,7 +311,7 @@ export const data = [
     type: "Action, Crime, Drama",
     trailer: "https://www.youtube.com/embed/s4QV6OZdmWY",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BNjJhZDZhNWYtMjdhYS00NjkyLWE5NzItMzljNmQ3NGE4MGZjXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_QL75_UY281_CR11,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/BpC1roaUxzHUgz0iuIgqgwrVvr.jpg",
   },
   {
     id: "34",
@@ -302,7 +321,7 @@ export const data = [
     type: "Action, Adventure, Fantasy",
     trailer: "https://www.youtube.com/embed/WDkg3h8PCVU",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/bMYgmzX6UJIhA9jHMsx7u1irQqQ.jpg",
   },
   {
     id: "35",
@@ -312,7 +331,7 @@ export const data = [
     type: "Animation, Short, Action",
     trailer: "https://www.youtube.com/embed/Sel3fjl6uyo",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BZmI5MTNhMzQtZDZiNC00YjVkLTlkZGEtOWRlMjQ0MjdjMjMxXkEyXkFqcGdeQXVyNjI4NDY5ODM@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/mOtvURL6qWKmBFmb0klRNE8aTRl.jpg",
   },
   {
     id: "36",
@@ -322,7 +341,7 @@ export const data = [
     type: "Comedy, Drama, Thriller",
     trailer: "https://www.youtube.com/embed/z-81WVD8xTs",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BODUzODY1NzEtYjNiNy00NzEwLThhYzEtZGUxZjQ4MDRiNjY2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/sZAZXJZAgoL00yijbjXILSUqyVu.jpg",
   },
   {
     id: "37",
@@ -332,7 +351,7 @@ export const data = [
     type: "Comedy",
     trailer: "https://www.youtube.com/embed/9fbo_pQvU7M",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMTQ1OTU0ODcxMV5BMl5BanBnXkFtZTcwOTMxNTUwOA@@._V1_QL75_UX190_CR0,10,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/aUPJEP0beupk5DghMwezyqCIHQF.jpg",
   },
   {
     id: "38",
@@ -342,7 +361,7 @@ export const data = [
     type: "Drama, Mystery, Sci-Fi",
     trailer: "https://www.youtube.com/embed/I1hNAIzkQWY",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BZjllMzc1ZTAtMzYyYi00OWU4LTgzNTAtYWJmMWNhZDI3ODVjXkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/ccKk6ts2Aqxu1rZinQpLWr15VlK.jpg",
   },
   {
     id: "39",
@@ -352,7 +371,7 @@ export const data = [
     type: "Action, Crime, Thriller",
     trailer: "https://www.youtube.com/embed/ChpLV9AMqm4",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMjE2NDkxNTY2M15BMl5BanBnXkFtZTgwMDc2NzE0MTI@._V1_QL75_UX190_CR0,6,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/ui6WUCvIgZsmWHAmAkAQ1gQ8F6j.jpg",
   },
   {
     id: "40",
@@ -362,7 +381,7 @@ export const data = [
     type: "Biography, Crime, Drama",
     trailer: "https://www.youtube.com/embed/xl8zdCY-abw",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BNmFjODU3YzgtMGUwNC00ZGI3LWFkZjQtMjkxZDc3NmQ1MzcyXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/6JoVbtwwhAR9Yt2vWpeu7frcdDy.jpg",
   },
   {
     id: "41",
@@ -372,7 +391,7 @@ export const data = [
     type: "Action, Crime, Drama",
     trailer: "https://www.youtube.com/embed/_InqQJRqGW4",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BODI0ZTljYTMtODQ1NC00NmI0LTk1YWUtN2FlNDM1MDExMDlhXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_QL75_UX190_CR0,2,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/loX6mroUITwULHqxLpmQ6QmMvu.jpg",
   },
   {
     id: "42",
@@ -382,7 +401,7 @@ export const data = [
     type: "Action, Drama, Sport",
     trailer: "https://www.youtube.com/embed/fCBzWLVQgk8",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BNmZkYjQzY2QtNjdkNC00YjkzLTk5NjUtY2MyNDNiYTBhN2M2XkEyXkFqcGdeQXVyMjMwNDgzNjc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/5sYhomBLYrjS9oxbuqC1SUbruqr.jpg",
   },
   {
     id: "43",
@@ -392,7 +411,7 @@ export const data = [
     type: "Horror",
     trailer: "https://www.youtube.com/embed/xKJmEC5ieOk",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/t7lCPnHkP2YbR1s5fGlI3WRXbqG.jpg",
   },
   {
     id: "44",
@@ -402,7 +421,7 @@ export const data = [
     type: "Action, Thriller",
     trailer: "https://www.youtube.com/embed/QCfSeVCr7ng",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMmZhZmQ1YjYtMmZkZC00ZTIxLTg5YTctMDczZGJmZTllYjBkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/prKjJsOnb8TUZXpg39dpzIsbTW2.jpg",
   },
   {
     id: "45",
@@ -412,7 +431,7 @@ export const data = [
     type: "Action, Adventure, Fantasy",
     trailer: "https://www.youtube.com/embed/CM79GTEm2ps",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_QL75_UY281_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/r7kHLlRXuQ1ng8mp7V83gj4yrNq.jpg",
   },
   {
     id: "46",
@@ -422,7 +441,7 @@ export const data = [
     type: "Animation, Action, Adventure",
     trailer: "https://www.youtube.com/embed/MGRm4IzK1SQ",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BNDFjYTIxMjctYTQ2ZC00OGQ4LWE3OGYtNDdiMzNiNDZlMDAwXkEyXkFqcGdeQXVyNzI3NjY3NjQ@._V1_QL75_UY281_CR9,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/jA6avZSe0bfSKDTrlFlmQYFs3hO.jpg",
   },
   {
     id: "47",
@@ -432,7 +451,7 @@ export const data = [
     type: "Animation, Comedy",
     trailer: "https://www.youtube.com/embed/Le1x2To-e6g",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BODEwZjEzMjAtNjQxMy00Yjc4LWFlMDAtYjhjZTAxNDU3OTg3XkEyXkFqcGdeQXVyOTM2NTM4MjA@._V1_QL75_UY281_CR11,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/foUfp02cwrEaET5aZXDNcQk6MTN.jpg",
   },
   {
     id: "48",
@@ -442,7 +461,7 @@ export const data = [
     type: "Action, Adventure, Drama",
     trailer: "https://www.youtube.com/embed/Yi4YnwFT7Gk",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMmZlYTQ3NjQtZmIxNC00MzA4LTg1NDgtMmEzODk0MzA4NjQxXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/uQfQiYIvCrW3Kvq4Pq8oPvYazNk.jpg",
   },
   {
     id: "49",
@@ -452,7 +471,7 @@ export const data = [
     type: "Action, Adventure, Sci-Fi",
     trailer: "https://www.youtube.com/embed/hEJnMQG9ev8",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/8BVSqAfU5knNkxyCH4JiANHwjeZ.jpg",
   },
   {
     id: "50",
@@ -462,7 +481,7 @@ export const data = [
     type: "Action, Adventure, Sci-Fi",
     trailer: "https://www.youtube.com/embed/u9Mv98Gr5pY",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BNTFkZjdjN2QtOGE5MS00ZTgzLTgxZjAtYzkyZWQ5MjEzYmZjXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_QL75_UY281_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/fieT0cibB8AYQCetRq0wQNknt4p.jpg",
   },
   {
     id: "51",
@@ -472,7 +491,7 @@ export const data = [
     type: "Action, Crime, Thriller",
     trailer: "https://www.youtube.com/embed/M7XM597XO94",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMDg2YzI0ODctYjliMy00NTU0LTkxODYtYTNkNjQwMzVmOTcxXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_QL75_UX190_CR0,6,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/gYAkONA29E3B4ASQIr2MQTUjuW2.jpg",
   },
   {
     id: "52",
@@ -482,7 +501,7 @@ export const data = [
     type: "Animation, Adventure, Comedy",
     trailer: "https://www.youtube.com/embed/jerFRSQW9g8",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/mKzKqqKPXSKEgQ33I4Dbdyn5ABi.jpg",
   },
   {
     id: "53",
@@ -492,7 +511,7 @@ export const data = [
     type: "Horror, Mystery, Thriller",
     trailer: "https://www.youtube.com/embed/k10ETZ41q5o",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/7oBlplQLcQ0E8rF6Pd4Cbi9ADg.jpg",
   },
   {
     id: "54",
@@ -502,7 +521,7 @@ export const data = [
     type: "Horror, Mystery, Thriller",
     trailer: "https://www.youtube.com/embed/2Tshycci2ZA",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BZmIwNjJhOGYtNDcyNi00Yjc4LThiNTktMDM2ZjFhM2YxMTljXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/7abx8DEgAgg0MpWMSzyke0V2A3q.jpg",
   },
   {
     id: "55",
@@ -512,7 +531,7 @@ export const data = [
     type: "Action, Thriller",
     trailer: "https://www.youtube.com/embed/nHX0QGGtSQY",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BYTY1MjRhYmYtZDg4Yy00ZWRiLWIwYzktZThkY2E0YjZlNjgxXkEyXkFqcGdeQXVyMTc3MjY3NTY@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/7o5UUmXZNxPLFRJRGLFU7VZPEHh.jpg",
   },
   {
     id: "56",
@@ -522,7 +541,7 @@ export const data = [
     type: "Action, Thriller",
     trailer: "https://www.youtube.com/embed/ar-IaAx7s8k",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BNTU0NmY4MWYtNzRlMS00MDkxLWJkODYtOTM3NGI2ZDc1NTJhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_QL75_UY281_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/t5X098KndMI1NnCV7NmNMecbSGA.jpg",
   },
   {
     id: "57",
@@ -532,7 +551,7 @@ export const data = [
     type: "Animation, Action, Adventure",
     trailer: "https://www.youtube.com/embed/VQGCKyvzIM4",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BYTIxNjk3YjItYmYzMC00ZTdmLTk0NGUtZmNlZTA0NWFkZDMwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/kRlqWz54iI9K1PjI15cwvtHjnSw.jpg",
   },
   {
     id: "58",
@@ -542,7 +561,7 @@ export const data = [
     type: "Action, Adventure, Thriller",
     trailer: "https://www.youtube.com/embed/9SA7FaKxZVI",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BOTIzYmUyMmEtMWQzNC00YzExLTk3MzYtZTUzYjMyMmRiYzIwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_QL75_UY281_CR2,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/kRl6WVRiaCszImQBJG5e427I6LS.jpg",
   },
   {
     id: "59",
@@ -552,7 +571,7 @@ export const data = [
     type: "Drama, Family, Sport",
     trailer: "https://www.youtube.com/embed/Yx0y7Pq84Og",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BNWQ0M2EwNWMtNmQxZS00M2NjLWEwYWQtNTU3OWVlMjdjMDRiXkEyXkFqcGdeQXVyMzU5NjU1MDA@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/vGM2nbF8QbAPHrWouQe6I7Ktlf0.jpg",
   },
   {
     id: "60",
@@ -562,7 +581,7 @@ export const data = [
     type: "Crime, Drama",
     trailer: "https://www.youtube.com/embed/HN4oydykJFc",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BZDA4YmE0OTYtMmRmNS00Mzk2LTlhM2MtNjk4NzBjZGE1MmIyXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_QL75_UX190_CR0,2,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/jee7VOxjLoQVZOUuKkIuO31Wjkr.jpg",
   },
   {
     id: "61",
@@ -572,7 +591,7 @@ export const data = [
     type: "Animation, Adventure, Comedy",
     trailer: "https://www.youtube.com/embed/SbXIj2T-_uk",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMTg5NzY0MzA2MV5BMl5BanBnXkFtZTYwNDc3NTc2._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/k1gZafHuIIlqnzBgFCTYc0IkpLL.jpg",
   },
   {
     id: "62",
@@ -582,7 +601,7 @@ export const data = [
     type: "Adventure, Comedy, Crime",
     trailer: "https://www.youtube.com/embed/FruHLslczag",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BN2ZhNmQ2MjQtMmQzMi00YjE5LTlkMWMtMjk5YzIxMjk2NDc2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UY281_CR18,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/fXbm9BGGPEKZTunqhuGnutMdrBa.jpg",
   },
   {
     id: "63",
@@ -592,7 +611,7 @@ export const data = [
     type: "Action, Crime, Thriller",
     trailer: "https://www.youtube.com/embed/_qyw6LC5pnE",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMjI0NmFkYzEtNzU2YS00NTg5LWIwYmMtNmQ1MTU0OGJjOTMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_QL75_UX190_CR0,10,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/oDyIOzbKZpAm9C0ZP0exr32ACZB.jpg",
   },
   {
     id: "64",
@@ -602,7 +621,7 @@ export const data = [
     type: "Action, Adventure, Fantasy",
     trailer: "https://www.youtube.com/embed/2Rxoz13Bthc",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMjIwNTM0Mzc5MV5BMl5BanBnXkFtZTgwMDk5NDU1ODE@._V1_QL75_UX190_CR0,10,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/bYwMfYWl2I4LHPOgPwKLflebabr.jpg",
   },
   {
     id: "65",
@@ -612,7 +631,7 @@ export const data = [
     type: "Adventure, Comedy, Family",
     trailer: "https://www.youtube.com/embed/Wlo-sYrADlw",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMDJlZWZiODItMGE3NC00Yzg3LWFhYTYtZTI2YWNlNjExMDE4XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_QL75_UY281_CR3,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/iJws7L3wDmOw2prpgNqCHZgvfxn.jpg",
   },
   {
     id: "66",
@@ -622,7 +641,7 @@ export const data = [
     type: "Action, Crime, Drama",
     trailer: "https://www.youtube.com/embed/1JLUn2DFW4w",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BNjk4MzVlM2UtZGM0ZC00M2M1LThkMWEtZjUyN2U2ZTc0NmM5XkEyXkFqcGdeQXVyOTAzMTc2MjA@._V1_QL75_UY281_CR18,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/kt2ky8yfyKcXyE6EdCWI7cri9dK.jpg",
   },
   {
     id: "67",
@@ -632,17 +651,247 @@ export const data = [
     type: "Animation, Action, Adventure",
     trailer: "https://www.youtube.com/embed/PnE5BWv87fs",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BY2ViMDQ3NDgtNjFkNy00ZTUzLThmMDYtYTMzY2IyZmYwNWJmXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_QL75_UY281_CR18,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/2GFVSAhhc95b5PFpIN7c09furXG.jpg",
   },
   {
     id: "68",
-    name: " London Has Fallen",
-    nameUrl: " london has fallen",
+    name: "London Has Fallen",
+    nameUrl: "london has fallen",
     year: "2016",
     type: "Action, Thriller",
     trailer: "https://www.youtube.com/embed/3AsOdX7NcJs",
     imageUrl:
-      "https://m.media-amazon.com/images/M/MV5BMTY1ODY2MTgwM15BMl5BanBnXkFtZTgwOTY3Nzc3NzE@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "https://www.themoviedb.org/t/p/original/qHtWWrZnzmfKNJGk2A7OZS5iSF1.jpg",
+  },
+  {
+    id: "69",
+    name: "Stranger Things",
+    nameUrl: "stranger things",
+    year: "2016-2024",
+    type: "Drama, Fantasy, Horror",
+    trailer: "https://www.youtube.com/embed/b9EkMc79ZSU",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/4wOb6k75YGl68wUrMcPAvFJxiyq.jpg",
+  },
+  {
+    id: "70",
+    name: "The Boys",
+    nameUrl: "the boys",
+    year: "2019-Present",
+    type: "Action, Comedy, Crime",
+    trailer: "https://www.youtube.com/embed/M1bhOaLV4FU",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/l7ZoZJF8ag81kayP6ZRk8bMFFAk.jpg",
+  },
+  {
+    id: "71",
+    name: "Babylon",
+    nameUrl: "babylon",
+    year: "2022",
+    type: "Comedy, Drama, History",
+    trailer: "https://www.youtube.com/embed/5muQK7CuFtY",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/vy9UcZnKeQRPWMHS27rkELF0GBm.jpg",
+  },
+  {
+    id: "72",
+    name: "Tomb Raider",
+    nameUrl: "tomb raider",
+    year: "2018",
+    type: "Action, Adventure, Comedy",
+    trailer: "https://www.youtube.com/embed/8ndhidEmUbI",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/5h6zSvmHvWGysojflxv2qBsYUG0.jpg",
+  },
+  {
+    id: "73",
+    name: "The Man from U.N.C.L.E.",
+    nameUrl: "the man from u.n.c.l.e.",
+    year: "2015",
+    type: "Action, Adventure, Comedy",
+    trailer: "https://www.youtube.com/embed/-x08iNZ8Mfc",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/joixf7iJKSUuOuo7bNhuNL2ppPb.jpg",
+  },
+  {
+    id: "74",
+    name: "The Fast and the Furious: Tokyo Drift",
+    nameUrl: "the fast and the furious: tokyo drift",
+    year: "2006",
+    type: "Action, Crime, Thriller",
+    trailer: "https://www.youtube.com/embed/p8HQ2JLlc4E",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/4uEiiDoHwtReE5EE4MkYVTHhg5q.jpg",
+  },
+  {
+    id: "75",
+    name: "Cars 2",
+    nameUrl: "cars 2",
+    year: "2011",
+    type: "Animation, Adventure, Comedy",
+    trailer: "https://www.youtube.com/embed/oFTfAdauCOo",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/netOQgntwtM1tLaEY9UsyHxXD7I.jpg",
+  },
+  {
+    id: "76",
+    name: "Ted 2",
+    nameUrl: "ted 2",
+    year: "2015",
+    type: "Comedy",
+    trailer: "https://www.youtube.com/embed/S3AVcCggRnU",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/yloR8F4DUYJJiCoouecp1qfAUFK.jpg",
+  },
+  {
+    id: "77",
+    name: "Wizards of Waverly Place",
+    nameUrl: "wizards of waverly place",
+    year: "2007-2012",
+    type: "Adventure, Comedy, Drama",
+    trailer: "https://www.youtube.com/embed/ybnW_fTcR0E",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/6sZNUwGxO0eEourWw5eT4AVR7kW.jpg",
+  },
+  {
+    id: "78",
+    name: "Angel Has Fallen",
+    nameUrl: "angel has fallen",
+    year: "2019",
+    type: "Action, Thriller",
+    trailer: "https://www.youtube.com/embed/isVtXH7n9lI",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/8kf2XYVjaZIq99JwFy9pqP6rUGl.jpg",
+  },
+  {
+    id: "79",
+    name: "Outer Banks",
+    nameUrl: "outer banks",
+    year: "2020-Present",
+    type: "Action, Crime, Drama",
+    trailer: "https://www.youtube.com/embed/uk_hFfUFXh4",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/8PYT3H6ep0PeTeU9E0HpjB0ZYUa.jpg",
+  },
+  {
+    id: "80",
+    name: "Tulsa King",
+    nameUrl: "tulsa king",
+    year: "2022-Present",
+    type: "Crime, Drama",
+    trailer: "https://www.youtube.com/embed/aaQSScwZPbA",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/8DF3u6u0s24wxEtZ3tB4BECTpG9.jpg",
+  },
+  {
+    id: "81",
+    name: "Creed II",
+    nameUrl: "creed II",
+    year: "2018",
+    type: "Action, Drama, Sport",
+    trailer: "https://www.youtube.com/embed/u22BXhMu4tI",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/sOVRTCzl3vv7If6VRVIVU2ZkjmV.jpg",
+  },
+  {
+    id: "82",
+    name: "One Punch Man: Wanpanman",
+    nameUrl: "one punch man: wanpanman",
+    year: "2015-2019",
+    type: "Animation, Action, Comedy",
+    trailer: "https://www.youtube.com/embed/Poo5lqoWSGw",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/xWDYXgbRfquh4s21dGnG0BWKySy.jpg",
+  },
+  {
+    id: "83",
+    name: "Nanatsu no taizai",
+    nameUrl: "nanatsu no taizai",
+    year: "2014-2021",
+    type: "Animation, Action, Adventure",
+    trailer: "https://www.youtube.com/embed/wxcvbL6o55M",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/n5Ty1KJIRNCXlDHDjcPpUgp57tr.jpg",
+  },
+  {
+    id: "84",
+    name: "Death on the Nile",
+    nameUrl: "death on the nile",
+    year: "2022",
+    type: "Crime, Drama, Mystery",
+    trailer: "https://www.youtube.com/embed/dZRqB0JLizw",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/p4fs4oWUZvkMMVPlCQVONIiTNds.jpg",
+  },
+  {
+    id: "85",
+    name: "Fast Five",
+    nameUrl: "fast five",
+    year: "2011",
+    type: "Action, Crime, Thriller",
+    trailer: "https://www.youtube.com/embed/vcn2GOuZCKI",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/vFa4lhBiSEiogI2az6VSaou1tZR.jpg",
+  },
+  {
+    id: "86",
+    name: "Cars 3",
+    nameUrl: "cars 3",
+    year: "2017",
+    type: "Animation, Adventure, Comedy",
+    trailer: "https://www.youtube.com/embed/2LeOH9AGJQM",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/gqyTUMNrMjyIVNVIgGMdurrNPWb.jpg",
+  },
+  {
+    id: "87",
+    name: "The Queen's Gambit",
+    nameUrl: "the queen's gambit",
+    year: "2020",
+    type: "Drama",
+    trailer: "https://www.youtube.com/embed/oZn3qSgmLqI",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/4ldOMO2uslwlOtF6HvlShf3SzMI.jpg",
+  },
+  {
+    id: "88",
+    name: "Wednesday",
+    nameUrl: "wednesday",
+    year: "2022-Present",
+    type: "Comedy, Crime, Fantasy",
+    trailer: "https://www.youtube.com/embed/Di310WS8zLk",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/meARQmCYBb2vMzlczh5rcVsa8HW.jpg",
+  },
+  {
+    id: "89",
+    name: "Total Drama Island",
+    nameUrl: "total drama island",
+    year: "2007-2014",
+    type: "Animation, Action, Comedy",
+    trailer: "https://www.youtube.com/embed/sa5yj0NRH6Y",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/e2CThXE3b8QSOHTXdLne7CzeMmC.jpg",
+  },
+  {
+    id: "90",
+    name: "Phineas and Ferb",
+    nameUrl: "phineas and ferb",
+    year: "2007-2024",
+    type: "Animation, Short, Action",
+    trailer: "https://www.youtube.com/embed/l00glZNK1S8",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/kO56OPPiMceB369ClXW3XdaL63n.jpg",
+  },
+  {
+    id: "91",
+    name: "Venom: Let There Be Carnage",
+    nameUrl: "venom: let there be carnage",
+    year: "2021",
+    type: "Action, Sci-Fi, Thriller",
+    trailer: "https://www.youtube.com/embed/-FmWuCgJmxo",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/lNyLSOKMMeUPr1RsL4KcRuIXwHt.jpg",
   },
 ];
 

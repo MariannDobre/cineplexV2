@@ -9,11 +9,30 @@
     font-size: $font-extra-big;
     color: $color-secondary;
     letter-spacing: $letter-medium;
+    text-align: center;
   }
 }
 
 .slide {
-  background-color: $color-main;
+  background: $color-main; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right bottom,
+    $color-main,
+    $color-main,
+    rgba(48, 43, 99, 0.05),
+    $color-main,
+    $color-main,
+    #302b63
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right bottom,
+    $color-main,
+    $color-main,
+    rgba(48, 43, 99, 0.05),
+    $color-main,
+    $color-main,
+    #302b63
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 25rem;
   border-radius: $rounded-small;
   color: $color-secondary;
@@ -36,10 +55,14 @@
   }
 
   &__description {
-    padding-left: $padding-small;
+    padding: 0 $padding-small;
     font-size: $font-small;
-    line-height: 1.7;
-    letter-spacing: $letter-small;
-    word-spacing: $word-medium;
+    line-height: 1.8;
+    letter-spacing: $letter-medium;
+    word-spacing: $word-big;
   }
+}
+
+.slick-slide {
+  padding: 0 $padding-medium;
 }

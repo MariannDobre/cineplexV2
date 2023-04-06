@@ -4,15 +4,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2.2rem;
   justify-content: center;
-  background: $color-main;
+  background: $color-main; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right bottom,
+    $color-main,
+    $color-main,
+    rgba(48, 43, 99, 0.05),
+    $color-main,
+    $color-main,
+    #302b63
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right bottom,
+    $color-main,
+    $color-main,
+    rgba(48, 43, 99, 0.05),
+    $color-main,
+    $color-main,
+    #302b63
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: $color-white;
   padding: $padding-big;
-  width: 30rem;
-  height: 45rem;
+  width: 53.5rem;
+  height: 51.5rem;
   border-radius: $rounded-extra-small;
-  box-shadow: $box-shadown-medium;
+  box-shadow: $box-shadown-big;
   cursor: pointer;
   transition: all 0.65s;
   font-family: $font-poppins;
@@ -31,6 +48,11 @@
       word-spacing: $word-medium;
       text-align: center;
       color: $color-secondary;
+
+      &::selection {
+        background-color: #845ef7;
+        color: $color-main;
+      }
     }
 
     &-subtitle {
@@ -38,6 +60,11 @@
       font-size: 1.45rem;
       letter-spacing: $letter-medium;
       color: #845ef7;
+
+      &::selection {
+        background-color: #845ef7;
+        color: $color-main;
+      }
     }
   }
 
@@ -48,24 +75,38 @@
     word-spacing: $word-medium;
     border-radius: $rounded-medium;
     outline: none;
-    border: 0.25rem solid $color-main;
+    border: 0.25rem solid $color-secondary;
     box-shadow: $box-shadown-small;
     background-color: $color-secondary;
     color: $color-main;
     cursor: pointer;
-    transition: all 0.5s;
+    transition: all 0.75s;
     text-decoration: none;
 
     &:hover {
       background-color: $color-main;
+      border: 0.25rem solid $color-main;
       color: #845ef7;
-      transform: scale(1.1);
+      transform: scale(1.15);
+    }
+
+    &::selection {
+      background-color: #845ef7;
+      color: $color-main;
     }
   }
 
   img {
-    box-shadow: $box-shadown-medium;
+    width: 100%;
+    height: 100%;
     border-radius: $rounded-extra-small;
+    filter: drop-shadow(0.25rem 0.25rem 1.75rem $color-black);
+    object-fit: contain;
+    // object-fit: cover;
+
+    &::selection {
+      background-color: #845ef7;
+    }
   }
 
   &:hover {

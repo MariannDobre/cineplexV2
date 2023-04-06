@@ -30,7 +30,6 @@ root.render(
           path={`/movies/:nameUrl`}
           element={<MovieDetails data={data} />}
         />
-        {/* <Route path={`/movies/${data.id}`} element={<MovieDetails />} /> */}
       </Routes>
     </Router>
   </React.StrictMode>

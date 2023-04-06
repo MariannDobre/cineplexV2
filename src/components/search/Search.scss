@@ -1,12 +1,19 @@
 @import "../../index.scss";
 
 .search__container {
-  text-align: center;
+  // text-align: center;
+  position: relative;
 
   &-input {
+    position: fixed;
+    z-index: 99;
+    top: 4%;
+    left: 45.65%;
+    transform: translate(0, -50%);
     cursor: pointer;
-    margin: $margin-medium 0 $margin-medium 0;
-    border: 0.35rem solid $color-main;
+    // margin: $margin-medium 0 $margin-medium 0;
+    // border: 0.35rem solid $color-main;
+    border: none;
     outline: none;
     background-color: rgba($color-white, 0.5);
     width: 45rem;
@@ -14,7 +21,7 @@
     padding: $padding-extra-small;
     font-size: $font-medium;
     color: $color-main;
-    box-shadow: $box-shadown-medium;
+    box-shadow: $box-shadown-big;
     font-weight: $font-semi-bold;
     letter-spacing: $letter-small;
 
