@@ -43,6 +43,7 @@
 .details__container {
   display: flex;
   flex-direction: column;
+  color: rgb(179, 148, 41);
 
   &-bg {
     height: 100vh;
@@ -53,6 +54,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     height: 55rem;
     filter: drop-shadow(1rem 0.25rem 1.25rem $color-black);
   }
@@ -71,9 +73,9 @@
     gap: 3rem;
 
     &-image {
-      width: 25rem;
-      height: 37.5rem;
-      filter: drop-shadow(0.5rem 0.5rem 1.35rem $color-black);
+      width: 27.5rem;
+      height: 40rem;
+      filter: drop-shadow(0.025rem 0.25rem 0.45rem $color-black);
     }
 
     &-button {
@@ -105,6 +107,7 @@
     align-items: flex-start;
     justify-content: center;
     font-family: $font-poppins;
+    margin-bottom: $margin-extra-big;
 
     &-name {
       display: flex;
@@ -207,6 +210,116 @@
         font-weight: $font-regular;
         color: #dee2e6;
         letter-spacing: $letter-small;
+        width: 80rem;
+      }
+    }
+
+    &-cast {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: $margin-small;
+      gap: 2.8rem;
+
+      &-director {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 0.65rem;
+        width: 47.5rem;
+
+        &-title {
+          font-size: $font-medium;
+          font-weight: $font-regular;
+          color: $color-white;
+          letter-spacing: $letter-medium;
+        }
+
+        &-subtitle {
+          font-size: $font-small;
+          font-weight: $font-regular;
+          color: #dee2e6;
+          letter-spacing: $letter-small;
+        }
+      }
+
+      &-writters {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 0.65rem;
+        width: 47.5rem;
+
+        &-title {
+          font-size: $font-medium;
+          font-weight: $font-regular;
+          color: $color-white;
+          letter-spacing: $letter-medium;
+        }
+
+        &-subtitle {
+          font-size: $font-small;
+          font-weight: $font-regular;
+          color: #dee2e6;
+          letter-spacing: $letter-small;
+        }
+      }
+    }
+  }
+}
+
+.movieDetails__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6rem;
+  margin-top: 5rem;
+  font-family: $font-poppins;
+
+  &-fav,
+  &-status,
+  &-language,
+  &-budget,
+  &-income {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.65rem;
+    width: 15rem;
+
+    &-title {
+      font-size: 1.8rem;
+      font-weight: $font-semi-bold;
+      color: $color-black;
+      letter-spacing: $letter-small;
+      word-spacing: $word-small;
+    }
+
+    &-subtitle {
+      font-size: 1.5rem;
+      color: $color-black;
+      letter-spacing: $letter-small;
+    }
+
+    &-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      color: $color-black;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.75s;
+      letter-spacing: $letter-medium;
+      border-bottom: 0.25rem solid #1e282f;
+
+      &:hover {
+        scale: 1.075;
+        color: #1e282f;
       }
     }
   }
@@ -276,8 +389,8 @@
 
 .user_score_chart canvas {
   position: absolute;
-  top: 0.45rem;
-  left: 0.45rem;
+  top: 0.495rem;
+  left: 0.5rem;
   width: 5rem;
   height: 5rem;
   z-index: 1;
