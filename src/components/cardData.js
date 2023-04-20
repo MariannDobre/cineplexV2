@@ -26,6 +26,7 @@ export const data = [
     writters: "Brian Helgeland ● John Pearson",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/xPq3LDgamUT1aKLTeGJk9ccwfwr.jpg",
+    castLink: "https://www.imdb.com/title/tt3569230/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "2",
@@ -54,6 +55,7 @@ export const data = [
     writters: "Michael Hirst",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/lHe8iwM4Cdm6RSEiara4PN8ZcBd.jpg",
+    castLink: "https://www.imdb.com/title/tt2306299/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "3",
@@ -82,6 +84,7 @@ export const data = [
     writters: "Lauren Schmidt",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
+    castLink:"https://www.imdb.com/title/tt5180504/fullcredits?ref_=tt_cl_sm"
   },
   {
     id: "4",
@@ -110,6 +113,7 @@ export const data = [
     writters: "Josh Heald ● Jon Hurwitz ● Hayden Schlossberg",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/zymbuoBoL1i94xAOzVJF6IuWLfD.jpg",
+    castLink:"https://www.imdb.com/title/tt7221388/fullcredits?ref_=tt_cl_sm"
   },
   {
     id: "5",
@@ -138,6 +142,7 @@ export const data = [
     writters: "Gregg Hurwitz ● Philip Eisner",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/nprqOIEfiMMQx16lgKeLf3rmPrR.jpg",
+    castLink:"https://www.imdb.com/title/tt10731768/fullcredits?ref_=tt_cl_sm"
   },
   {
     id: "6",
@@ -166,6 +171,7 @@ export const data = [
     writters: "Keenan Coogler ● Zach Baylin ● Ryan Coogler",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/5i6SjyDbDWqyun8klUuCxrlFbyw.jpg",
+    castLink:"https://www.imdb.com/title/tt11145118/fullcredits?ref_=tt_cl_sm"
   },
   {
     id: "7",
@@ -194,6 +200,7 @@ export const data = [
     writters: "Kurt Sutter",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/1tXlUvfhLVjM5rZcN2783IhCkbu.jpg",
+      castLink:"https://www.imdb.com/title/tt1798684/fullcredits?ref_=tt_cl_sm"
   },
   {
     id: "8",
@@ -222,6 +229,7 @@ export const data = [
     writters: "M. Night Shyamalan",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/9pkZesKMnblFfKxEhQx45YQ2kIe.jpg",
+      castLink:"https://www.imdb.com/title/tt4972582/fullcredits?ref_=tt_cl_sm"
   },
   {
     id: "9",
@@ -250,6 +258,7 @@ export const data = [
     writters: "Steven Knight",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/wiE9doxiLwq3WCGamDIOb2PqBqc.jpg",
+      castLink:"https://www.imdb.com/title/tt2442560/fullcredits?ref_=tt_cl_sm"
   },
   {
     id: "10",
@@ -278,6 +287,7 @@ export const data = [
     writters: "Sergio Pablos ● Jim Mahoney ● Zach Lewis",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/2u1YG0pgm5bIOXO2OVWLNdMl23f.jpg",
+      castLink:"https://www.imdb.com/title/tt4729430/fullcredits?ref_=tt_cl_sm"
   },
   {
     id: "11",
@@ -306,6 +316,7 @@ export const data = [
     writters: "Vince Gilligan",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bsNm9z2TJfe0WO3RedPGWQ8mG1X.jpg",
+      castLink:"https://www.imdb.com/title/tt0903747/fullcredits?ref_=tt_cl_sm"
   },
   {
     id: "12",
@@ -548,14 +559,16 @@ export const data = [
     language: "English",
     budget: "Not available",
     income: "Not available",
-    bgColor: "rgba(220.5, 199.5, 10.5, 0.84)",
+    bgColor:
+      "linear-gradient(to right, rgba(204.5, 179.5, 82.5, 1) calc((50vw - 170px) - 340px), rgba(204.5, 179.5, 82.5, 0.59) 50%, rgba(204.5, 179.5, 82.5, 0.56) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "The daily surreal adventures of a blue jay and raccoon duo that attempt to deal with their mundane jobs as groundskeepers at the local park.",
     director: "J.G. Quintel",
     writters: "J.G. Quintel",
-    bgImage: "",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/5iWJwQPBusPTV7G7n5TABNRP7tO.jpg",
   },
   {
     id: "21",
@@ -570,18 +583,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/5e0uvFYJ0uIOi84XsaSgrzTM0wb.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/oKIBhzZzDX07SoE2bOLhq2EE8rf.jpg",
-    originalTitle: "Mr. Robot",
     status: "Finished",
     language: "English",
     budget: "Not available",
     income: "Not available",
-    bgColor: "rgba(199.5, 10.5, 31.5, 0.84)",
+    bgColor:
+      "linear-gradient(to right, rgba(199.5, 10.5, 31.5, 1) calc((50vw - 170px) - 340px), rgba(199.5, 10.5, 31.5, 0.55) 50%, rgba(199.5, 10.5, 31.5, 0.52) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "Elliot, a brilliant but highly unstable young cyber-security engineer and vigilante hacker, becomes a key figure in a complex game of global dominance when he and his shadowy allies try to take down the corrupt corporation he works for.",
     director: "Sam Esmail",
     writters: "Sam Esmail",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/1SEVAgbaah9wE5xoLt4qWPMBdpL.jpg",
   },
   {
     id: "22",
@@ -596,18 +611,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/5uVhMGsps81CN0S4U9NF0Z4tytG.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lAXONuqg41NwUMuzMiFvicDET9Y.jpg",
-    originalTitle: "Red Notice",
     status: "Released",
     language: "English",
     budget: "$160,000,000.00",
     income: "$178,143,000.00",
-    bgColor: "rgba(31.5, 10.5, 10.5, 0.84)",
+    bgColor:
+      "linear-gradient(to right, rgba(31.5, 10.5, 10.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 10.5, 10.5, 0.59) 50%, rgba(31.5, 10.5, 10.5, 0.57) 100%)",
     trackColor: "#4d5e2f",
     barColor: "#add469",
     presentation:
       "An Interpol agent successfully tracks down the world's most wanted art thief with help from a rival thief. But nothing is as it seems as a series of double-crosses ensues.",
     director: "Rawson Marshall Thurber",
     writters: "Rawson Marshall Thurber",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/dK12GIdhGP6NPGFssK2Fh265jyr.jpg",
   },
   {
     id: "23",
@@ -622,18 +639,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/83oeqwN64WtafGoITvsOzjKIQaM.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/75YNt0MFs9n2Do6CyDLLmIKXKWM.jpg",
-    originalTitle: "Bullet Train",
     status: "Released",
     language: "English",
     budget: "$90,000,000.00",
     income: "$239,268,602.00",
-    bgColor: "#91a7ff",
+    bgColor:
+      "linear-gradient(to right, rgba(145.5, 167.5, 255.5, 1) calc((50vw - 170px) - 340px), rgba(145.5, 167.5, 255.5, 0.59) 50%, rgba(145.5, 167.5, 255.5, 0.56) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "Five assassins aboard a swiftly-moving bullet train find out that their missions have something in common.",
     director: "David Leitch",
     writters: "Zak Olkewicz ● Kôtarô Isaka",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/y2Ca1neKke2mGPMaHzlCNDVZqsK.jpg",
   },
   {
     id: "24",
@@ -648,18 +667,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/xdIsccWAECo0YF9aTrPoMFUZiJo.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ipJ4mgqse6uoTRsDyU3TXmva1rt.jpg",
-    originalTitle: "Ninja Assassin",
     status: "Released",
     language: "English",
     budget: "$40,000,000.00",
     income: "$61,601,280.00",
-    bgColor: "rgba(31.5, 31.5, 31.5, 1)",
+    bgColor:
+      "linear-gradient(to right, rgba(31.5, 31.5, 31.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 31.5, 31.5, 0.59) 50%, rgba(31.5, 31.5, 31.5, 0.55) 100%)",
     trackColor: "#4d5e2f",
     barColor: "#add469",
     presentation:
       "A young ninja turns his back on the orphanage that raised him, leading to a confrontation with a fellow ninja from the clan.",
     director: "James McTeigue",
     writters: "Matthew Sand ● J. Michael Straczynski",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/xdIsccWAECo0YF9aTrPoMFUZiJo.jpg",
   },
   {
     id: "25",
@@ -674,18 +695,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/fITEnpLE3IHVXLYsX80CSetrz0f.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/htJzeRcYI2ewMm4PTrg98UMXShe.jpg",
-    originalTitle: "The Blacklist",
     status: "Series in progress",
     language: "English",
     budget: "Not available",
     income: "Not available",
-    bgColor: "rgba(241.5, 10.5, 10.5, 0.84)",
+    bgColor:
+      "linear-gradient(to right, rgba(241.5, 10.5, 10.5, 1) calc((50vw - 170px) - 340px), rgba(241.5, 10.5, 10.5, 0.49) 50%, rgba(241.5, 10.5, 10.5, 0.44) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "A new FBI profiler, Elizabeth Keen, has her entire life uprooted when a mysterious criminal, Raymond Reddington, who has eluded capture for decades, turns himself in and insists on speaking only to her.",
     director: "Jon Bokenkamp",
     writters: "Jon Bokenkamp",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/dDPwCyZG8arYwMDoQl0sm4xccCE.jpg",
   },
   {
     id: "26",
@@ -700,18 +723,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/txASbb3KACAhfVZaJF2yAIGhTUo.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/Ak59Y9bzykmV0wAiwKsqrbORDBo.jpg",
-    originalTitle: "Emily in Paris",
     status: "Series in progress",
     language: "English",
     budget: "Not available",
     income: "Not available",
-    bgColor: "rgba(241.5, 220.5, 199.5, 0.84",
+    bgColor:
+      "linear-gradient(to right, rgba(241.5, 220.5, 199.5, 1) calc((50vw - 170px) - 340px), rgba(241.5, 220.5, 199.5, 0.52) 50%, rgba(241.5, 220.5, 199.5, 0.55) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "A young American woman from the Midwest is hired by a marketing firm in Paris to provide them with an American perspective on things.",
     director: "Darren Star",
     writters: "Darren Star",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/xkKIruOg4NoADdPjJJrvfiJHRdZ.jpg",
   },
   {
     id: "27",
@@ -726,18 +751,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/qw3J9cNeLioOLoR68WX7z79aCdK.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
-    originalTitle: "오징어 게임",
     status: "Series in progress",
     language: "English",
     budget: "Not available",
     income: "Not available",
-    bgColor: "rgba(52.5, 31.5, 31.5, 1)",
+    bgColor:
+      "linear-gradient(to right, rgba(52.5, 31.5, 31.5, 1) calc((50vw - 170px) - 340px), rgba(52.5, 31.5, 31.5, 0.59) 50%, rgba(52.5, 31.5, 31.5, 0.56) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes. A survival game that has a whopping 45.6 billion-won prize at stake.",
     director: "Hwang Dong-hyuk",
     writters: "Hwang Dong-hyuk",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/xYTnihl7qffiLSZ6yLMSpBkPdXC.jpg",
   },
   {
     id: "28",
@@ -752,18 +779,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/9berBuak0aID66n4MIZTxkxzqyO.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/rP7X52bxOEBc09h5qzHJnHXxE3C.jpg",
-    originalTitle: "John Wick",
     status: "Released",
     language: "English",
     budget: "$20,000,000.00",
     income: "$88,761,661.00",
-    bgColor: "rgba(31.5, 94.5, 94.5, 1)",
+    bgColor:
+      "linear-gradient(to right, rgba(31.5, 94.5, 94.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 94.5, 94.5, 0.6) 50%, rgba(31.5, 94.5, 94.5, 0.57) 100%)",
     trackColor: "#4d5e2f",
     barColor: "#add469",
     presentation:
       "An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took his car.",
     director: "Chad Stahelski ● David Leitch",
     writters: "Derek Kolstad",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/7dzngS8pLkGJpyeskCFcjPO9qLF.jpg",
   },
   {
     id: "29",
@@ -778,18 +807,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/oT1IE1GWRs4OWdBDA4u7hZaF6Oa.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/rzvdKrnSRKPFI0pgqMQknDPpRC9.jpg",
-    originalTitle: "Animal Kingdom",
     status: "Finished",
     language: "English",
     budget: "Not available",
     income: "Not available",
-    bgColor: "rgba(31.5, 10.5, 10.5, 0.84)",
+    bgColor:
+      "linear-gradient(to right, rgba(31.5, 10.5, 10.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 10.5, 10.5, 0.59) 50%, rgba(31.5, 10.5, 10.5, 0.56) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "Centers on a Southern California family, whose excessive lifestyle is fueled by their criminal activities.",
     director: "Jonathan Lisco",
     writters: "Jonathan Lisco",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/eQJwfyMqSra10ck8HOoiCrbQR32.jpg",
   },
   {
     id: "30",
@@ -804,18 +835,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/hB9qlweWumNlMbdtTjCxC8AQuZc.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/9QwbXpSZGbgLgvZOelvGampEhMv.jpg",
-    originalTitle: "Steven Universe",
     status: "Finished",
     language: "English",
     budget: "Not available",
     income: "Not available",
-    bgColor: "rgba(10.5, 136.5, 199.5, 1)",
+    bgColor:
+      "linear-gradient(to right, rgba(10.5, 136.5, 199.5, 1) calc((50vw - 170px) - 340px), rgba(10.5, 136.5, 199.5, 0.59) 50%, rgba(10.5, 136.5, 199.5, 0.56) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "A team of intergalactic warriors fights to protect the Earth, but the combination of three highly trained beings and one quirky young boy leaves the team struggling to overcome the dangerous scenarios that are put in front of them.",
     director: "Rebecca Sugar",
     writters: "Rebecca Sugar",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/t4I93vdFYURRHAypiF3LjSQ2TZj.jpg",
   },
   {
     id: "31",
@@ -830,18 +863,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/s6fSFATmgD0gcuTgXJNJAyktHzi.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wGLdIZjp97mPQV0P9IzmVYavgtH.jpg",
-    originalTitle: "The Gentlemen",
     status: "Released",
     language: "English",
     budget: "$22,000,000.00",
     income: "$115,171,795.00",
-    bgColor: "#868e96",
+    bgColor:
+      "linear-gradient(to right, rgba(134.5, 142.5, 150.5, 1) calc((50vw - 170px) - 340px), rgba(134.5, 142.5, 150.5, 0.59) 50%, rgba(134.5, 142.5, 150.5, 0.56) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
     director: "Guy Ritchie",
     writters: "Guy Ritchie ● Ivan Atkinson ● Marn Davies",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/tintsaQ0WLzZsTMkTiqtMB3rfc8.jpg",
   },
   {
     id: "32",
@@ -856,18 +891,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/7IrQ5vwmTHppBCf51HRFzSd7xMi.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uEozWNkROT5lIMBnqWK9Sv9d5Qz.jpg",
-    originalTitle: "Tom & Jerry",
     status: "Released",
     language: "English",
     budget: "$50,000,000.00",
     income: "$136,536,687.00",
-    bgColor: "rgba(52.5, 31.5, 31.5, 1)",
+    bgColor:
+      "linear-gradient(to right, rgba(52.5, 31.5, 31.5, 1) calc((50vw - 170px) - 340px), rgba(52.5, 31.5, 31.5, 0.6) 50%, rgba(52.5, 31.5, 31.5, 0.57) 100%)",
     trackColor: "#4d5e2f",
     barColor: "#add469",
     presentation:
       "A chaotic battle ensues between Jerry Mouse, who has taken refuge in the Royal Gate Hotel, and Tom Cat, who is hired to drive him away before the day of a big wedding arrives.",
     director: "Tim Story",
     writters: "William Hanna ● Joseph Barbera ● Kevin Costello",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/9ns9463dwOeo1CK1JU2wirL5Yi1.jpg",
   },
   {
     id: "33",
@@ -882,18 +919,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/BpC1roaUxzHUgz0iuIgqgwrVvr.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tM6xqRKXoloH9UchaJEyyRE9O1w.jpg",
-    originalTitle: "Marvel: Punisher",
     status: "Canceled",
     language: "English",
     budget: "Not available",
     income: "Not available",
-    bgColor: "rgba(31.5, 31.5, 31.5, 1)",
+    bgColor:
+      "linear-gradient(to right, rgba(31.5, 31.5, 31.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 31.5, 31.5, 0.59) 50%, rgba(31.5, 31.5, 31.5, 0.57) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "After his revenge on those who murdered his family, aimless Marine veteran Frank Castle finds a new meaning in life as a vigilante known as `The Punisher`.",
     director: "Steve Lightfoot",
     writters: "Steve Lightfoot",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/j5aOOtsJinQtyRaqiB12TTRHdeX.jpg",
   },
   {
     id: "34",
@@ -908,18 +947,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/bMYgmzX6UJIhA9jHMsx7u1irQqQ.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ibipj7W6tbtEsPYD4hpGxXMnBrX.jpg",
-    originalTitle: "Aquaman",
     status: "Released",
     language: "English",
     budget: "$160,000,000.00",
     income: "$1,148,528,393.00",
-    bgColor: "rgba(10.5, 52.5, 94.5, 1)",
+    bgColor:
+      "linear-gradient(to right, rgba(10.5, 52.5, 94.5, 1) calc((50vw - 170px) - 340px), rgba(10.5, 52.5, 94.5, 0.59) 50%, rgba(10.5, 52.5, 94.5, 0.57) 100%)",
     trackColor: "#4d5e2f",
     barColor: "#add469",
     presentation:
       "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
     director: "James Wan",
     writters: "David Leslie Johnson-McGoldrick ● Will Beall ● Geoff Johns",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/skauHPLA4so9PqOuu3jhWmiWnFd.jpg",
   },
   {
     id: "35",
@@ -934,18 +975,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/mOtvURL6qWKmBFmb0klRNE8aTRl.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/l6nGUyxKCi7ODvyfc8qQShliVEd.jpg",
-    originalTitle: "-",
     status: "Series in progress",
     language: "English",
     budget: "Not available",
     income: "Not available",
-    bgColor: "rgba(10.5, 31.5, 52.5, 1)",
+    bgColor:
+      "linear-gradient(to right, rgba(10.5, 31.5, 52.5, 1) calc((50vw - 170px) - 340px), rgba(10.5, 31.5, 52.5, 0.62) 50%, rgba(10.5, 31.5, 52.5, 0.59) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "Follow the misadventures of the impulsive Cuphead and his cautious but persuadable brother Mugman in this animated series based on the hit video game.",
     director: "David 'Dave' Wasson ● Chad Moldenhauer ● Jared Moldenhauer",
     writters: "David 'Dave' Wasson ● Chad Moldenhauer ● Jared Moldenhauer",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/gcoKL5TC1MMDVvMS7mGGeym3mpd.jpg",
   },
   {
     id: "36",
@@ -960,18 +1003,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/sZAZXJZAgoL00yijbjXILSUqyVu.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lHZ4xqGQlmyiFTOVtwnNpTcZgkd.jpg",
-    originalTitle: "Insatiable",
     status: "Canceled",
     language: "English",
     budget: "Not available",
     income: "Not available",
-    bgColor: "rgba(31.5, 115.5, 157.5, 1)",
+    bgColor:
+      "linear-gradient(to right, rgba(31.5, 115.5, 157.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 115.5, 157.5, 0.55) 50%, rgba(31.5, 115.5, 157.5, 0.52) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "A disgraced, dissatisfied civil lawyer-turned-beauty pageant coach takes on a vengeful, bullied teenager as his client and has no idea what he's about to unleash upon the world.",
     director: "Lauren Gussis",
     writters: "Lauren Gussis",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/dsBkVh0PWJ68ceJ58oJo63Plm63.jpg",
   },
   {
     id: "37",
@@ -986,18 +1031,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/aUPJEP0beupk5DghMwezyqCIHQF.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/zxtsSws3QYBG7fRP8LoacaXu0et.jpg",
-    originalTitle: "Ted",
     status: "Released",
     language: "English",
     budget: "$50,000,000.00",
     income: "$549,368,315.00",
-    bgColor: "#adb5bd",
+    bgColor:
+      "linear-gradient(to right, rgba(173.5, 181.5, 189.5, 1) calc((50vw - 170px) - 340px), rgba(173.5, 181.5, 189.5, 0.58) 50%, rgba(173.5, 181.5, 189.5, 0.59) 100%)",
     trackColor: "#4d5e2f",
     barColor: "#add469",
     presentation:
       "John Bennett, a man whose childhood wish of bringing his teddy bear to life came true, now must decide between keeping the relationship with the bear, Ted or his girlfriend, Lori.",
     director: "Seth MacFarlane",
     writters: "Seth MacFarlane ● Alec Sulkin ● Wellesley Wild",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/wS9TiAS1WckeTS2IrFg5dRN9WQD.jpg",
   },
   {
     id: "38",
@@ -1012,18 +1059,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/ccKk6ts2Aqxu1rZinQpLWr15VlK.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/eTemCphrglLKrXOsNRhYezHA7H9.jpg",
-    originalTitle: "Manifest",
     status: "Series in progress",
     language: "English",
     budget: "Not available",
     income: "Not available",
-    bgColor: "rgba(31.5, 31.5, 31.5, 0.84)",
+    bgColor:
+      "linear-gradient(to right, rgba(31.5, 31.5, 31.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 31.5, 31.5, 0.61) 50%, rgba(31.5, 31.5, 31.5, 0.56) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "A commercial airliner suddenly reappears after being missing for five years. As those aboard reintegrate into society, they experience guiding voices and visions of events yet to occur, and soon a deeper mystery unfolds.",
     director: "Jeff Rake",
     writters: "Jeff Rake",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/iZu83GB1IM7VXL2X90m7iLHYUHU.jpg",
   },
   {
     id: "39",
@@ -1038,18 +1087,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/ui6WUCvIgZsmWHAmAkAQ1gQ8F6j.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mEZ4D6F8qweUQRSLrKFfifwIbt4.jpg",
-    originalTitle: "JW: Chapter 2",
     status: "Released",
     language: "English",
     budget: "$40,000,000.00",
     income: "$171,539,887.00",
-    bgColor: "rgba(31.5, 31.5, 31.5, 0.84)",
+    bgColor:
+      "linear-gradient(to right, rgba(31.5, 31.5, 31.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 31.5, 31.5, 0.61) 50%, rgba(31.5, 31.5, 31.5, 0.56) 100%)",
     trackColor: "#4d5e2f",
     barColor: "#add469",
     presentation:
       "After returning to the criminal underworld to repay a debt, John Wick discovers that a large bounty has been put on his life.",
     director: "Chad Stahelski",
     writters: "Derek Kolstad",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/r17jFHAemzcWPPtoO0UxjIX0xas.jpg",
   },
   {
     id: "40",
@@ -1064,18 +1115,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/6JoVbtwwhAR9Yt2vWpeu7frcdDy.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/rTmal9fDbwh5F0waol2hq35U4ah.jpg",
-    originalTitle: "Narcos",
     status: "Finished",
     language: "English",
     budget: "Not available",
     income: "Not available",
-    bgColor: "rgba(31.5, 10.5, 10.5, 0.84)",
+    bgColor:
+      "linear-gradient(to right, rgba(31.5, 10.5, 10.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 10.5, 10.5, 0.59) 50%, rgba(31.5, 10.5, 10.5, 0.56) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar, as well as the many other drug kingpins who plagued the country through the years.",
     director: "Carlo Bernard ● Chris Brancato ● Doug Miro",
     writters: "Carlo Bernard ● Chris Brancato ● Doug Miro",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bT7pArYmcE91iCTec5H7pjrVbSu.jpg",
   },
   {
     id: "41",
@@ -1090,18 +1143,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/loX6mroUITwULHqxLpmQ6QmMvu.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
-    originalTitle: "La Casa de Papel",
     status: "Finished",
     language: "English",
     budget: "Not available",
     income: "Not available",
-    bgColor: "#4b796c",
+    bgColor:
+      "linear-gradient(to right, rgba(75.5, 121.5, 108.5, 1) calc((50vw - 170px) - 340px), rgba(75.5, 121.5, 108.5, 0.57) 50%, rgba(75.5, 121.5, 108.5, 0.53) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.",
     director: "Álex Pina",
     writters: "Álex Pina",
+    bgImage:
+      "	https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/gFZriCkpJYsApPZEF3jhxL4yLzG.jpg",
   },
   {
     id: "42",
@@ -1116,18 +1171,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/5sYhomBLYrjS9oxbuqC1SUbruqr.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/1BfTsk5VWuw8FCocAhCyqnRbEzq.jpg",
-    originalTitle: "Creed",
     status: "Released",
     language: "English",
     budget: "$37,000,000.00",
     income: "$173,567,581.00",
-    bgColor: "rgba(31.5, 31.5, 31.5, 0.84)",
+    bgColor:
+      "linear-gradient(to right, rgba(31.5, 31.5, 31.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 31.5, 31.5, 0.59) 50%, rgba(31.5, 31.5, 31.5, 0.54) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "The former World Heavyweight Champion Rocky Balboa serves as a trainer and mentor to Adonis Johnson, the son of his late friend and former rival Apollo Creed.",
     director: "Ryan Coogler",
     writters: "Ryan Coogler ● Aaron Covington ● Sylvester Stallone",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/lBX2EklMBEK5I0OIJWVJFr3DtmS.jpg",
   },
   {
     id: "43",
@@ -1142,18 +1199,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/t7lCPnHkP2YbR1s5fGlI3WRXbqG.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/bzdJVquV3UmR8vcVLxaX9TsNnA6.jpg",
-    originalTitle: "It",
     status: "Released",
     language: "English",
     budget: "$35,000,000.00",
     income: "$701,842,551.00",
-    bgColor: "#090614",
+    bgColor:
+      "linear-gradient(to right, rgba(31.5, 31.5, 31.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 31.5, 31.5, 0.59) 50%, rgba(31.5, 31.5, 31.5, 0.54) 100%)",
     trackColor: "#4d5e2f",
     barColor: "#add469",
     presentation:
       "In the summer of 1989, a group of bullied kids band together to destroy a shape-shifting monster, which disguises itself as a clown and preys on the children of Derry, their small Maine town.",
     director: "Andy Muschietti",
     writters: "Chase Palmer ● Cary Joji Fukunaga ● Gary Dauberman",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/tcheoA2nPATCm2vvXw2hVQoaEFD.jpg",
   },
   {
     id: "44",
@@ -1168,18 +1227,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/prKjJsOnb8TUZXpg39dpzIsbTW2.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/1cSHEKYYP8Dpi4o1iBVd4U75FYt.jpg",
-    originalTitle: "Black and Blue",
     status: "Released",
     language: "English",
     budget: "$12,000,000.00",
     income: "$22,741,061.00",
-    bgColor: "#585b66",
+    bgColor:
+      "linear-gradient(to right, rgba(88.5, 91.5, 102.5, 1) calc((50vw - 170px) - 340px), rgba(88.5, 91.5, 102.5, 0.59) 50%, rgba(88.5, 91.5, 102.5, 0.54) 100%)",
     trackColor: "#4d5e2f",
     barColor: "#add469",
     presentation:
       "A rookie New Orleans police officer is forced to balance her identity as a black woman after she witnesses two corrupt cops committing murder.",
     director: "Deon Taylor",
     writters: "Peter A. Dowling",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/7GWDrjxeBsh5onaYf5XHjIM9BA1.jpg",
   },
   {
     id: "45",
@@ -1194,18 +1255,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/r7kHLlRXuQ1ng8mp7V83gj4yrNq.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg",
-    originalTitle: "Avatar",
     status: "Released",
     language: "English",
     budget: "$237,000,000.00",
     income: "$2,920,357,254.00",
-    bgColor: "#081625",
+    bgColor:
+      "linear-gradient(to right, rgba(10.5, 31.5, 52.5, 1) calc((50vw - 170px) - 340px), rgba(10.5, 31.5, 52.5, 0.6) 50%, rgba(10.5, 31.5, 52.5, 0.56) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
     director: "James Cameron",
     writters: "James Cameron",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
   },
   {
     id: "46",
@@ -1220,18 +1283,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/jA6avZSe0bfSKDTrlFlmQYFs3hO.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/sHim6U0ANsbzxcmNRYuIubBVQaz.jpg",
-    originalTitle: "進撃の巨人",
     status: "Series in progress",
-    language: "English",
+    language: "Japanese",
     budget: "Not available",
     income: "Not available",
-    bgColor: "rgba(31.5, 31.5, 73.5, 1)",
+    bgColor:
+      "linear-gradient(to right, rgba(31.5, 31.5, 73.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 31.5, 73.5, 0.6) 50%, rgba(31.5, 31.5, 73.5, 0.56) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
     director: "-",
     writters: "-",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/rqbCbjB19amtOtFQbb3K2lgm2zv.jpg",
   },
   {
     id: "47",
@@ -1246,18 +1311,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/foUfp02cwrEaET5aZXDNcQk6MTN.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aLB7psB9N81n5GecHNOudXWW3AI.jpg",
-    originalTitle: "Family Guy",
     status: "Series in progress",
     language: "English",
     budget: "Not available",
     income: "Not available",
-    bgColor: "rgba(31.5, 178.5, 94.5, 0.84)",
+    bgColor:
+      "linear-gradient(to right, rgba(31.5, 178.5, 94.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 178.5, 94.5, 0.6) 50%, rgba(31.5, 178.5, 94.5, 0.57) 100%)",
     trackColor: "#4d5e2f",
     barColor: "#add469",
     presentation:
       "In a wacky Rhode Island town, a dysfunctional family strives to cope with everyday life as they are thrown from one crazy scenario to another.",
     director: "Seth MacFarlane ● David Zuckerman",
     writters: "Seth MacFarlane ● David Zuckerman",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
   },
   {
     id: "48",
@@ -1272,18 +1339,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/uQfQiYIvCrW3Kvq4Pq8oPvYazNk.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/rDFy1fUU6OC3Mm0CLFB7u0fGwVN.jpg",
-    originalTitle: "Vikings: Valhalla",
     status: "Series in progress",
     language: "English",
     budget: "Not available",
     income: "Not available",
-    bgColor: "rgba(52.5, 73.5, 94.5, 1)",
+    bgColor:
+      "linear-gradient(to right, rgba(52.5, 73.5, 94.5, 1) calc((50vw - 170px) - 340px), rgba(52.5, 73.5, 94.5, 0.59) 50%, rgba(52.5, 73.5, 94.5, 0.54) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "Follow-up series to 'Vikings' set 100 years later and focusing on the adventures of Leif Erikson, Freydis, Harald Hardrada, and the Norman King William the Conqueror.",
     director: "Jeb Stuart",
     writters: "Jeb Stuart",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/k47JEUTQsSMN532HRg6RCzZKBdB.jpg",
   },
   {
     id: "49",
@@ -1298,18 +1367,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/8BVSqAfU5knNkxyCH4JiANHwjeZ.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/cl4hxrShgMxJc61gdCo4k5oxpAF.jpg",
-    originalTitle: "MM: Fury Road",
     status: "Released",
     language: "English",
     budget: "$150,000,000.00",
     income: "$378,858,340.00",
-    bgColor: "#b08912",
+    bgColor:
+      "linear-gradient(to right, rgba(176.5, 137.5, 18.5, 1) calc((50vw - 170px) - 340px), rgba(176.5, 137.5, 18.5, 0.59) 50%, rgba(176.5, 137.5, 18.5, 0.54) 100%)",
     trackColor: "#054c37",
     barColor: "#53c668",
     presentation:
       "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper and a drifter named Max.",
     director: "George Miller",
     writters: "George Miller ● Brendan McCarthy ● Nick Lathouris",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/nlCHUWjY9XWbuEUQauCBgnY8ymF.jpg",
   },
   {
     id: "50",
@@ -1324,18 +1395,20 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/fieT0cibB8AYQCetRq0wQNknt4p.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/pDJUjTqFQYrPsmBCC012gno7kWI.jpg",
-    originalTitle: "Venom",
     status: "Released",
     language: "English",
     budget: "$116,000,000.00",
     income: "$855,013,954.00",
-    bgColor: "rgba(10.5, 31.5, 31.5, 1)",
+    bgColor:
+      "linear-gradient(to right, rgba(10.5, 31.5, 31.5, 1) calc((50vw - 170px) - 340px), rgba(10.5, 31.5, 31.5, 0.59) 50%, rgba(10.5, 31.5, 31.5, 0.55) 100%)",
     trackColor: "#4d5e2f",
     barColor: "#add469",
     presentation:
       "A failed reporter is bonded to an alien entity, one of many symbiotes who have invaded Earth. But the being takes a liking to Earth and decides to protect it.",
     director: "Ruben Fleischer",
     writters: "Jeff Pinkner ● Scott Rosenberg ● Kelly Marcel",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
   },
   {
     id: "51",
@@ -1350,7 +1423,6 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/gYAkONA29E3B4ASQIr2MQTUjuW2.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wz0eh4VGwzRvlhGxojcNyMI9Uz1.jpg",
-    originalTitle: "JW: Chapter 3",
     status: "Released",
     language: "English",
     budget: "$55,000,000.00",
@@ -1379,7 +1451,6 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/mKzKqqKPXSKEgQ33I4Dbdyn5ABi.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/pL6ekCy5BjDK9TbvYsdPF49hUgg.jpg",
-    originalTitle: "Rick and Morty",
     status: "Series in progress",
     language: "English",
     budget: "Not available",
@@ -1408,7 +1479,6 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/7oBlplQLcQ0E8rF6Pd4Cbi9ADg.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/A09nKeXAa0FlOr6Y6EVnvAINKQ2.jpg",
-    originalTitle: "The Conjuring",
     status: "Released",
     language: "English",
     budget: "$13,000,000.00",
@@ -1437,7 +1507,6 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/7abx8DEgAgg0MpWMSzyke0V2A3q.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/rqs2CXpc4d5FzeP1EZCYItAVo81.jpg",
-    originalTitle: "The Night House",
     status: "Released",
     language: "English",
     budget: "Not available",
@@ -1466,7 +1535,6 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/7o5UUmXZNxPLFRJRGLFU7VZPEHh.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/cSpM3QxmoSLp4O1WAMQpUDcaB7R.jpg",
-    originalTitle: "Triple Threat",
     status: "Released",
     language: "English",
     budget: "$10,000,000.00",
@@ -1495,7 +1563,6 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/t5X098KndMI1NnCV7NmNMecbSGA.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ei2qjTiDpgKGuoSEntPCSAIhuvQ.jpg",
-    originalTitle: "-",
     status: "Released",
     language: "English",
     budget: "$70,000,000.00",
@@ -1524,7 +1591,6 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/kRlqWz54iI9K1PjI15cwvtHjnSw.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
-    originalTitle: "鬼滅の刃",
     status: "Series in progress",
     language: "Japanese",
     budget: "Not available",
@@ -1553,7 +1619,6 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/kRl6WVRiaCszImQBJG5e427I6LS.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/5Ik5kqhauCbasXI9TbgOu6LDvVz.jpg",
-    originalTitle: "FF Hobbs & Shaw",
     status: "Released",
     language: "English",
     budget: "$200,000,000.00",
@@ -1582,7 +1647,6 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/vGM2nbF8QbAPHrWouQe6I7Ktlf0.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ztrYqCPwFult7UMTiHyVxp1xHSc.jpg",
-    originalTitle: "Cloud 9",
     status: "Released",
     language: "English",
     budget: "Not available",
@@ -1611,7 +1675,6 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/jee7VOxjLoQVZOUuKkIuO31Wjkr.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/iB6x0bA9XdP4MH3i1zXjMzvTNSY.jpg",
-    originalTitle: "Better Call Saul",
     status: "Finished",
     language: "English",
     budget: "Not available",
@@ -1640,7 +1703,6 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/k1gZafHuIIlqnzBgFCTYc0IkpLL.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/u4G8EkiIBZYx0wEg2xDlXZigTOZ.jpg",
-    originalTitle: "Cars",
     status: "Released",
     language: "English",
     budget: "$120,000,000.00",
@@ -1663,13 +1725,12 @@ export const data = [
     year: "2017-2019",
     type: "Adventure, Comedy, Crime",
     duration: "22m",
-    score: "82",
+    score: "83",
     trailer: "https://www.youtube.com/embed/FruHLslczag",
     imageUrl:
       "https://www.themoviedb.org/t/p/original/fXbm9BGGPEKZTunqhuGnutMdrBa.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/f1OV9xEJCZVYcYSDRr5xOD8NJw3.jpg",
-    originalTitle: "-",
     status: "Finished",
     language: "English",
     budget: "Not available",
@@ -1698,7 +1759,6 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/oDyIOzbKZpAm9C0ZP0exr32ACZB.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7VmWHyvxwJoqwJugu9HVa1SBoNa.jpg",
-    originalTitle: "F9",
     status: "Released",
     language: "English",
     budget: "$200,000,000.00",
@@ -1727,7 +1787,6 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/bYwMfYWl2I4LHPOgPwKLflebabr.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ooCoY8z0Cabvcd0fze8z5yW5M4w.jpg",
-    originalTitle: "Warcraft",
     status: "Released",
     language: "English",
     budget: "$160,000,000.00",
@@ -1756,7 +1815,6 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/iJws7L3wDmOw2prpgNqCHZgvfxn.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/jwydlxxLPVxM5uCfJybEsANzvvg.jpg",
-    originalTitle: "Stuart Little",
     status: "Released",
     language: "English",
     budget: "$133,000,000.00",
@@ -1785,7 +1843,6 @@ export const data = [
       "https://www.themoviedb.org/t/p/original/kt2ky8yfyKcXyE6EdCWI7cri9dK.jpg",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ePXuKdXZuJx8hHMNr2yM4jY2L7Z.jpg",
-    originalTitle: "-",
     status: "Released",
     language: "English",
     budget: "Not available",
@@ -1814,7 +1871,6 @@ export const data = [
     score: "77",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/3sLz2yv6vBDWqBbd8rdnNeoJ2kJ.jpg",
-    originalTitle: "-",
     status: "Released",
     language: "English",
     budget: "Not available",
@@ -1843,7 +1899,6 @@ export const data = [
     score: "62",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/pbTJ2SQE0bRP45fS64CRygGgacw.jpg",
-    originalTitle: "-",
     status: "Released",
     language: "English",
     budget: "$60,000,000.00",
@@ -1872,7 +1927,6 @@ export const data = [
     score: "86",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/gGQom1pOOLGYmDSjGNe7wUvVhzv.jpg",
-    originalTitle: "Stranger Things",
     status: "Series in progress",
     language: "English",
     budget: "Not available",
@@ -1901,7 +1955,6 @@ export const data = [
     score: "85",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/cmoiQRckDbwA2aPY2Izz3ClXsXn.jpg",
-    originalTitle: "The Boys",
     status: "Series in progress",
     language: "English",
     budget: "Not available",
@@ -1930,7 +1983,6 @@ export const data = [
     score: "75",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qB6rnGsixpiXfT8DgZ0ckQ4Knji.jpg",
-    originalTitle: "Babylon",
     status: "Released",
     language: "English",
     budget: "$78,000,000.00",
@@ -1959,7 +2011,6 @@ export const data = [
     score: "64",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/43w9q230rmUznAgQRwyvEwcMYu3.jpg",
-    originalTitle: "Tomb Raider",
     status: "Released",
     language: "English",
     budget: "$94,000,000.00",
@@ -1988,7 +2039,6 @@ export const data = [
     score: "71",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/zkacOORjKJxRswDurffyvkMwriS.jpg",
-    originalTitle: "-",
     status: "Released",
     language: "English",
     budget: "$75,000,000.00",
@@ -2017,7 +2067,6 @@ export const data = [
     score: "64",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/cm2ffqb3XovzA5ZSzyN3jnn8qv0.jpg",
-    originalTitle: "-",
     status: "Released",
     language: "English",
     budget: "$85,000,000.00",
@@ -2046,7 +2095,6 @@ export const data = [
     score: "61",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/okIz1HyxeVOMzYwwHUjH2pHi74I.jpg",
-    originalTitle: "Cars 2",
     status: "Released",
     language: "English",
     budget: "$200,000,000.00",
@@ -2075,7 +2123,6 @@ export const data = [
     score: "63",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/nq8k6cGfAdPwrf5cRmMcQZHpZRP.jpg",
-    originalTitle: "Ted 2",
     status: "Released",
     language: "English",
     budget: "$68,000,000.00",
@@ -2104,7 +2151,6 @@ export const data = [
     score: "82",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/spVI8Zns4Ep30zzxcoO7f7nwfck.jpg",
-    originalTitle: "W.O.W.P",
     status: "Finished",
     language: "English",
     budget: "Not available",
@@ -2133,7 +2179,6 @@ export const data = [
     score: "66",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fapXd3v9qTcNBTm39ZC4KUVQDNf.jpg",
-    originalTitle: "Angel Has Fallen",
     status: "Released",
     language: "English",
     budget: "$40,000,000.00",
@@ -2162,7 +2207,6 @@ export const data = [
     score: "85",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg",
-    originalTitle: "Outer Banks",
     status: "Series in progress",
     language: "English",
     budget: "Not available",
@@ -2191,7 +2235,6 @@ export const data = [
     score: "86",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fwTv3RPRAIy0maOMns5eYRRwnDk.jpg",
-    originalTitle: "Tulsa King",
     status: "Series in progress",
     language: "English",
     budget: "Not available",
@@ -2220,7 +2263,6 @@ export const data = [
     score: "70",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/yZP1J40mdImPUe4ZZ1NDsZwCN1F.jpg",
-    originalTitle: "Creed II",
     status: "Released",
     language: "English",
     budget: "$50,000,000.00",
@@ -2249,7 +2291,6 @@ export const data = [
     score: "84",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/iE3s0lG5QVdEHOEZnoAxjmMtvne.jpg",
-    originalTitle: "ワンパンマン",
     status: "Finished",
     language: "Japanese",
     budget: "Not available",
@@ -2278,7 +2319,6 @@ export const data = [
     score: "86",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2joVH3cYzhIhwrUsEQRjY6BnMea.jpg",
-    originalTitle: "七つの大罪",
     status: "Finished",
     language: "Japanese",
     budget: "Not available",
@@ -2307,7 +2347,6 @@ export const data = [
     score: "64",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/3iwQ0tLsSndN0kJ97Wti5yXNH5W.jpg",
-    originalTitle: "Death on the Nile",
     status: "Released",
     language: "English",
     budget: "$90,000,000.00",
@@ -2336,7 +2375,6 @@ export const data = [
     score: "72",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/dbS9ku9UjxMvtDSw42RV1CRdWFT.jpg",
-    originalTitle: "Fast Five",
     status: "Released",
     language: "English",
     budget: "$125,000,000.00",
@@ -2365,7 +2403,6 @@ export const data = [
     score: "69",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/8OkNkV28jguhzBcfTQ8kqrJmCH1.jpg",
-    originalTitle: "Cars 3",
     status: "Released",
     language: "English",
     budget: "$175,000,000.00",
@@ -2394,7 +2431,6 @@ export const data = [
     score: "86",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg",
-    originalTitle: "Queen's Gambit",
     status: "Finished",
     language: "English",
     budget: "Not available",
@@ -2423,7 +2459,6 @@ export const data = [
     score: "86",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
-    originalTitle: "Wednesday",
     status: "Series in progress",
     language: "English",
     budget: "Not available",
@@ -2452,7 +2487,6 @@ export const data = [
     score: "75",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2mBbbvAIK7rrZD2Zhuc9WYB28xJ.jpg",
-    originalTitle: "Drama Island",
     status: "Finished",
     language: "English",
     budget: "Not available",
@@ -2481,7 +2515,6 @@ export const data = [
     score: "79",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/f4QCYoBcJib8BprM4DUIQBMckeQ.jpg",
-    originalTitle: "Phineas & Ferb",
     status: "Series in progress",
     language: "English",
     budget: "Not available",
@@ -2510,7 +2543,6 @@ export const data = [
     score: "69",
     poster:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/3kO4B2EuUBA9dK9kyfnwP5kOiSR.jpg",
-    originalTitle: "-",
     status: "Released",
     language: "English",
     budget: "$110,000,000.00",
@@ -2525,6 +2557,34 @@ export const data = [
     writters: "Kelly Marcel ● Tom Hardy",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/vIgyYkXkg6NC2whRbYjBD7eb3Er.jpg",
+  },
+  {
+    id: "92",
+    name: "8 Mile",
+    nameUrl: "8 mile",
+    year: "2002",
+    type: "Drama, Music",
+    trailer: "https://www.youtube.com/embed/axGVrfwm9L4",
+    imageUrl:
+      "https://www.themoviedb.org/t/p/original/98nGVNZJ03eDi9VwMlhfKL6s2o5.jpg",
+    duration: "1h 50m",
+    score: "71",
+    poster:
+      "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7BmQj8qE1FLuLTf7Xjf9sdIHzoa.jpg",
+    status: "Released",
+    language: "English",
+    budget: "$41,000,000.00",
+    income: "$242,875,078.00",
+    bgColor:
+      "linear-gradient(to right, rgba(10.5, 31.5, 31.5, 1) calc((50vw - 170px) - 340px), rgba(10.5, 31.5, 31.5, 0.59) 50%, rgba(10.5, 31.5, 31.5, 0.54) 100%)",
+    trackColor: "#4d5e2f",
+    barColor: "#add469",
+    presentation:
+      "Follows a young rapper in the Detroit area, struggling with every aspect of his life, wants to make it big but his friends and foes make this odyssey of rap harder than it may seem.",
+    director: "Curtis Hanson",
+    writters: "Scott Silver",
+    bgImage:
+      "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bfccQmQWNFQYRv4PHgCnjDu7PXn.jpg",
   },
 ];
 

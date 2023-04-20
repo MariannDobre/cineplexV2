@@ -43,10 +43,9 @@
 .details__container {
   display: flex;
   flex-direction: column;
-  color: rgb(179, 148, 41);
 
   &-bg {
-    height: 100vh;
+    height: 100%;
     background-color: #ced4da;
   }
 
@@ -91,6 +90,7 @@
       color: $color-white;
       box-shadow: $box-shadown-small;
       transition: all 0.75s;
+      outline: none;
 
       &:hover {
         transform: translateY(-0.4rem);
@@ -279,6 +279,52 @@
   margin-top: 5rem;
   font-family: $font-poppins;
 
+  &-cast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-castTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115.15rem;
+    margin: $margin-big 0 0 0;
+
+    &-content {
+      font-family: $font-poppins;
+      font-size: 2.6rem;
+      font-weight: $font-semi-bold;
+      letter-spacing: $letter-medium;
+      word-spacing: $word-small;
+    }
+  }
+
+  &-castLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 119.15rem;
+    padding-bottom: $padding-big;
+
+    &-content {
+      color: $color-black;
+      font-family: $font-poppins;
+      font-size: 1.75rem;
+      font-weight: $font-semi-bold;
+      letter-spacing: $letter-small;
+      word-spacing: $word-small;
+      text-decoration: none;
+      transition: color 0.3s;
+      cursor: pointer;
+
+      &:hover {
+        color: rgba($color-black, 0.65);
+      }
+    }
+  }
+
   &-fav,
   &-status,
   &-language,
@@ -359,12 +405,26 @@
 
 .close-btn {
   position: absolute;
-  top: 25%;
-  left: 12%;
-  font-size: 30px;
-  color: red;
+  top: 8.05%;
+  left: 0.25%;
+  font-size: $font-medium;
+  word-spacing: $word-medium;
+  letter-spacing: $letter-small;
+  font-family: $font-poppins;
+  padding: $padding-input $padding-medium;
   cursor: pointer;
-  z-index: 9999; /* ensure the close button is on top of the iframe */
+  z-index: 9999;
+  border: none;
+  outline: none;
+  border-radius: $rounded-medium;
+  transition: all 0.5s;
+  color: $color-white;
+  font-weight: $font-semi-bold;
+
+  &:hover {
+    scale: 1.035;
+    box-shadow: $box-shadown-medium;
+  }
 }
 
 //
@@ -408,4 +468,109 @@
   z-index: 2;
   color: $color-white;
   font-size: $font-small;
+}
+
+//
+
+.dropdownscore__container {
+  position: absolute;
+  z-index: 999;
+  top: 25.75%;
+  left: 31%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(#868e96, 1),
+    rgba(#adb5bd, 1)
+  );
+  padding: $padding-medium;
+  box-shadow: $box-shadown-medium;
+  border-radius: $rounded-small;
+
+  &-item-1 {
+    font-weight: $font-semi-bold;
+    letter-spacing: $letter-small;
+    color: $color-black;
+
+    span {
+      font-weight: $font-bold;
+      color: #53c668;
+      letter-spacing: $letter-small;
+    }
+  }
+
+  &-item-2 {
+    font-weight: $font-semi-bold;
+    letter-spacing: $letter-small;
+    color: $color-black;
+
+    span {
+      font-weight: $font-bold;
+      color: #add469;
+      letter-spacing: $letter-small;
+    }
+  }
+
+  &-item-3 {
+    font-weight: $font-semi-bold;
+    letter-spacing: $letter-small;
+    color: $color-black;
+
+    span {
+      font-weight: $font-bold;
+      color: #fab005;
+      letter-spacing: $letter-small;
+    }
+  }
+
+  &-item-4 {
+    font-weight: $font-semi-bold;
+    letter-spacing: $letter-small;
+    color: $color-black;
+
+    span {
+      font-weight: $font-bold;
+      color: #f76707;
+      letter-spacing: $letter-small;
+    }
+  }
+
+  &-item-5 {
+    font-weight: $font-semi-bold;
+    letter-spacing: $letter-small;
+    color: $color-black;
+
+    span {
+      font-weight: $font-bold;
+      color: #d83838;
+      letter-spacing: $letter-small;
+    }
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    font-family: $font-poppins;
+    font-size: $font-small;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+  height: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #ced4da;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0.6rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Nav from "../nav/Nav";
 import Footer from "../footer/Footer";
 import { FaUserAlt } from "react-icons/fa";
@@ -13,44 +14,49 @@ function Profile() {
   };
 
   return (
-    <div className="profile__container">
-      <Nav />
-      <div className="profile__content">
-        <div className="profile__content-box">
-          {file ? (
-            <img
-              className="profile__content-picture"
-              src={file}
-              alt="Uploaded file"
-            />
-          ) : (
-            <div className="profile__content-wrapper">
-              <p className="profile__content-wrapper-title">Upload a photo</p>
-              <FaUserAlt className="profile__content-wrapper-icon" />
-              <label
-                htmlFor="fileInput"
-                className="profile__content-wrapper-label"
-              >
-                {file ? file.name : "Choose a file"}
-              </label>
-              <input
-                id="fileInput"
-                className="profile__content-wrapper-input"
-                type="file"
-                onChange={handleFileUpload}
+    <HelmetProvider>
+      <div className="profile__container">
+        <Helmet>
+          <title>Cineplex | Profile</title>
+        </Helmet>
+        <Nav />
+        <div className="profile__content">
+          <div className="profile__content-box">
+            {file ? (
+              <img
+                className="profile__content-picture"
+                src={file}
+                alt="Uploaded file"
               />
-            </div>
-          )}
-          <p className="profile__content-username">
-            Username: <span>admin</span>
-          </p>
-          <p className="profile__content-password">
-            Current Password: <span>***</span>
-          </p>
+            ) : (
+              <div className="profile__content-wrapper">
+                <p className="profile__content-wrapper-title">Upload a photo</p>
+                <FaUserAlt className="profile__content-wrapper-icon" />
+                <label
+                  htmlFor="fileInput"
+                  className="profile__content-wrapper-label"
+                >
+                  {file ? file.name : "Choose a file"}
+                </label>
+                <input
+                  id="fileInput"
+                  className="profile__content-wrapper-input"
+                  type="file"
+                  onChange={handleFileUpload}
+                />
+              </div>
+            )}
+            <p className="profile__content-username">
+              Username: <span>admin</span>
+            </p>
+            <p className="profile__content-password">
+              Current Password: <span>***</span>
+            </p>
+          </div>
+          <Footer />
         </div>
-        <Footer />
       </div>
-    </div>
+    </HelmetProvider>
   );
 }
 

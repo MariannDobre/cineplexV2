@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { account } from "../account";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Home from "../main/Home";
 import "./LogIn.scss";
 
@@ -24,52 +25,57 @@ function LogIn() {
   }
 
   return (
-    <div className="login__container">
-      {isLoggedIn ? (
-        <Home />
-      ) : (
-        <>
-          <h1 className="login__container-title">
-            Cine<span>Plex</span>
-          </h1>
-          <div className="login__container-bg">
-            <h2 className="login__container-subtitle">Login</h2>
-            <form className="login__container-form" onSubmit={handleLogin}>
-              <input
-                className="login__container-input"
-                type="text"
-                value={username}
-                required
-                onChange={(event) => setUsername(event.target.value)}
-              />
-              <label className="login__container-label">
-                <span className="login__container-span">Username:</span>
-              </label>
-            </form>
+    <HelmetProvider>
+      <div className="login__container">
+        <Helmet>
+          <title>Cineplex | LogIn</title>
+        </Helmet>
+        {isLoggedIn ? (
+          <Home />
+        ) : (
+          <>
+            <h1 className="login__container-title">
+              Cine<span>Plex</span>
+            </h1>
+            <div className="login__container-bg">
+              <h2 className="login__container-subtitle">Login</h2>
+              <form className="login__container-form" onSubmit={handleLogin}>
+                <input
+                  className="login__container-input"
+                  type="text"
+                  value={username}
+                  required
+                  onChange={(event) => setUsername(event.target.value)}
+                />
+                <label className="login__container-label">
+                  <span className="login__container-span">Username:</span>
+                </label>
+              </form>
 
-            <form className="login__container-form" onSubmit={handleLogin}>
-              <input
-                className="login__container-input"
-                type="password"
-                value={password}
-                required
-                onChange={(event) => setPassword(event.target.value)}
-              />
-              <label className="login__container-label">
-                <span className="login__container-span">Password:</span>
-              </label>
+              <form className="login__container-form" onSubmit={handleLogin}>
+                <input
+                  className="login__container-input"
+                  type="password"
+                  value={password}
+                  required
+                  onChange={(event) => setPassword(event.target.value)}
+                />
+                <label className="login__container-label">
+                  <span className="login__container-span">Password:</span>
+                </label>
 
-              <button className="login__container-submit" type="submit">
-                Sign In
-              </button>
-            </form>
-            {error && (
-              <p className="login__container-error slide-right">{error}</p>
-            )}
-          </div>
-        </>
-      )}
-    </div>
+                <button className="login__container-submit" type="submit">
+                  Sign In
+                </button>
+              </form>
+              {error && (
+                <p className="login__container-error slide-right">{error}</p>
+              )}
+            </div>
+          </>
+        )}
+      </div>
+    </HelmetProvider>
   );
 }
 

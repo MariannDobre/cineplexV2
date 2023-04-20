@@ -7,7 +7,6 @@ import {
   AiTwotonePhone,
 } from "react-icons/ai";
 import { FaUserAlt, FaFilm } from "react-icons/fa";
-import { FiPackage } from "react-icons/fi";
 import "./Nav.scss";
 
 function Nav() {
@@ -53,14 +52,6 @@ function Nav() {
         <li className="nav__container-li">
           <Link className="nav__container-li-item" to="/upcoming">
             <FaFilm /> Upcoming
-          </Link>
-        </li>
-
-        <span className="nav__container-line"></span>
-
-        <li className="nav__container-li">
-          <Link className="nav__container-li-item" to="/packages">
-            <FiPackage /> Packages
           </Link>
         </li>
 
