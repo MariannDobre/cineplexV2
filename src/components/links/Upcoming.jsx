@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../nav/Nav";
+import Footer from "../footer/Footer";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { upcomingTitles } from "../upcoming";
@@ -28,6 +29,7 @@ function Upcoming() {
               ))}
             </div>
           </div>
+          <Footer />
         </div>
       </div>
     </HelmetProvider>

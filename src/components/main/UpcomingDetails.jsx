@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import { BsFillBookmarkFill, BsStarFill } from "react-icons/bs";
+import UpcomingCast from "./UpcomingCast";
 
 function UpcomingDetails({ upcomingTitles }) {
   const { url } = useParams();
@@ -279,6 +280,27 @@ function UpcomingDetails({ upcomingTitles }) {
             {cardData.income}
           </p>
         </div>
+      </div>
+
+      <div className="movieDetails__container-castTitle">
+        <p className="movieDetails__container-castTitle-content">Main cast</p>
+      </div>
+
+      <div className="movieDetails__container-cast">
+        <UpcomingCast upcomingCastId={cardData.id} />
+      </div>
+
+      {console.log(cardData.castLink)}
+
+      <div className="movieDetails__container-castLink">
+        <a
+          className="movieDetails__container-castLink-content"
+          href={cardData.castLink}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Full cast and crew
+        </a>
       </div>
     </div>
   );

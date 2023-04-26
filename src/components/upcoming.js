@@ -26,6 +26,7 @@ export const upcomingTitles = [
     language: "English",
     budget: "$100,000,000.00",
     income: "Not available",
+    castLink: "https://www.imdb.com/title/tt15398776/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "2",
@@ -54,6 +55,7 @@ export const upcomingTitles = [
     language: "English",
     budget: "$90,000,000.00",
     income: "$349,712,705.00",
+    castLink: "https://www.imdb.com/title/tt10366206/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "3",
@@ -82,6 +84,7 @@ export const upcomingTitles = [
     language: "English",
     budget: "$340,000,000.00",
     income: "Not available",
+    castLink: "https://www.imdb.com/title/tt5433140/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "4",
@@ -109,6 +112,7 @@ export const upcomingTitles = [
     language: "English",
     budget: "Not available",
     income: "Not available",
+    castLink: "https://www.imdb.com/title/tt9663764/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "5",
@@ -130,12 +134,13 @@ export const upcomingTitles = [
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/b9UCfDzwiWw7mIFsIQR9ZJUeh7q.jpg",
     director: "Dexter Fletcher",
     writters: "Chris McKenna ● Rhett Reese ● Erik Sommers",
-    score: "20",
-    trackColor: "#601919",
-    barColor: "#d83838",
+    score: "50",
+    trackColor: "#644602",
+    barColor: "#fab005",
     status: "Released",
     language: "English",
     budget: "Not available",
     income: "Not available",
+    castLink: "https://www.imdb.com/title/tt15326988/fullcredits?ref_=tt_cl_sm",
   },
 ];

@@ -1,0 +1,145 @@
+@import "../../index.scss";
+
+.favorites__container {
+  display: flex;
+}
+
+.favorites__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6rem;
+  width: 85%;
+  height: 100vh;
+  padding: $padding-big;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 400% 400% !important;
+  animation: animatedGradient 7.5s ease infinite;
+
+  &-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    padding: $padding-medium;
+    width: 52.5rem;
+    height: 43.5rem;
+    background: $color-main; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right bottom,
+      $color-main,
+      $color-main,
+      rgba(48, 43, 99, 0.05),
+      $color-main,
+      $color-main,
+      #302b63
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right bottom,
+      $color-main,
+      $color-main,
+      rgba(48, 43, 99, 0.05),
+      $color-main,
+      $color-main,
+      #302b63
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    filter: drop-shadow(0rem 0rem 1.15rem $color-black);
+    cursor: pointer;
+    transition: all 0.45s;
+
+    &:hover {
+      transform: translateY(-1.25rem);
+      scale: 1.025;
+    }
+
+    &-description {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.85rem;
+      font-family: $font-poppins;
+
+      &-name {
+        font-size: $font-medium;
+        font-weight: $font-regular;
+        color: $color-secondary;
+        letter-spacing: $letter-small;
+        filter: drop-shadow(0 0 0.35rem $color-black);
+      }
+
+      &-year {
+        font-size: $font-small;
+        font-weight: $font-semi-bold;
+        color: #845ef7;
+        letter-spacing: $letter-medium;
+      }
+    }
+
+    &-img {
+      width: 47.5rem;
+      height: 32.5rem;
+      filter: drop-shadow(0 0 0.35rem $color-black);
+    }
+
+    &-removeButton {
+      font-size: 1.75rem;
+      font-family: $font-poppins;
+      background-color: transparent;
+      outline: none;
+      cursor: pointer;
+      color: $color-secondary;
+      border: 0.15rem solid $color-secondary;
+      padding: 0.25rem $padding-medium;
+      border-radius: $rounded-small;
+      box-shadow: $box-shadown-small;
+      letter-spacing: $letter-small;
+      word-spacing: $word-small;
+      transition: all 0.45s;
+
+      &:hover {
+        background-color: $color-main;
+        border: 0.15rem solid $color-main;
+        color: #845ef7;
+        box-shadow: $box-shadown-medium;
+        scale: 1.035;
+      }
+    }
+  }
+}
+
+//
+
+.favorites__content::-webkit-scrollbar {
+  width: 1.1rem;
+  height: 1.1rem;
+  background-color: #0f0c29;
+}
+
+.favorites__content::-webkit-scrollbar-thumb {
+  background-color: $color-secondary;
+  border-radius: 0.6rem;
+}
+
+.favorites__content::-webkit-scrollbar-thumb:hover {
+  background-color: #845ef7;
+}
+
+.favorites__content::-webkit-scrollbar-track {
+  background-color: #0f0c29;
+}

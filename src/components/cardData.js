@@ -17,7 +17,7 @@ export const data = [
     budget: "$25,000,000.00",
     income: "$42,972,994.00",
     bgColor:
-      "linear-gradient(to right, rgba(241.5, 94.5, 52.5, 1) calc((50vw - 170px) - 340px), rgba(241.5, 94.5, 52.5, 0.56) 50%, rgba(241.5, 94.5, 52.5, 0.51) 100%)",
+      "linear-gradient(to right, rgba(241.5, 94.5, 52.5, 1) calc((50vw - 170px) - 340px), rgba(241.5, 94.5, 52.5, 0.53) 50%, rgba(241.5, 94.5, 52.5, 0.48) 100%)",
     trackColor: "#4d5e2f",
     barColor: "#add469",
     presentation:
@@ -84,7 +84,7 @@ export const data = [
     writters: "Lauren Schmidt",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
-    castLink:"https://www.imdb.com/title/tt5180504/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt5180504/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "4",
@@ -113,7 +113,7 @@ export const data = [
     writters: "Josh Heald ● Jon Hurwitz ● Hayden Schlossberg",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/zymbuoBoL1i94xAOzVJF6IuWLfD.jpg",
-    castLink:"https://www.imdb.com/title/tt7221388/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt7221388/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "5",
@@ -142,7 +142,7 @@ export const data = [
     writters: "Gregg Hurwitz ● Philip Eisner",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/nprqOIEfiMMQx16lgKeLf3rmPrR.jpg",
-    castLink:"https://www.imdb.com/title/tt10731768/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt10731768/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "6",
@@ -171,7 +171,7 @@ export const data = [
     writters: "Keenan Coogler ● Zach Baylin ● Ryan Coogler",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/5i6SjyDbDWqyun8klUuCxrlFbyw.jpg",
-    castLink:"https://www.imdb.com/title/tt11145118/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt11145118/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "7",
@@ -200,7 +200,7 @@ export const data = [
     writters: "Kurt Sutter",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/1tXlUvfhLVjM5rZcN2783IhCkbu.jpg",
-      castLink:"https://www.imdb.com/title/tt1798684/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1798684/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "8",
@@ -229,7 +229,7 @@ export const data = [
     writters: "M. Night Shyamalan",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/9pkZesKMnblFfKxEhQx45YQ2kIe.jpg",
-      castLink:"https://www.imdb.com/title/tt4972582/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt4972582/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "9",
@@ -258,7 +258,7 @@ export const data = [
     writters: "Steven Knight",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/wiE9doxiLwq3WCGamDIOb2PqBqc.jpg",
-      castLink:"https://www.imdb.com/title/tt2442560/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt2442560/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "10",
@@ -287,7 +287,7 @@ export const data = [
     writters: "Sergio Pablos ● Jim Mahoney ● Zach Lewis",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/2u1YG0pgm5bIOXO2OVWLNdMl23f.jpg",
-      castLink:"https://www.imdb.com/title/tt4729430/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt4729430/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "11",
@@ -316,7 +316,7 @@ export const data = [
     writters: "Vince Gilligan",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bsNm9z2TJfe0WO3RedPGWQ8mG1X.jpg",
-      castLink:"https://www.imdb.com/title/tt0903747/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt0903747/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "12",
@@ -345,7 +345,7 @@ export const data = [
     writters: "Craig Mazin",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/20eIP9o5ebArmu2HxJutaBjhLf4.jpg",
-      castLink:"https://www.imdb.com/title/tt7366338/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt7366338/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "13",
@@ -374,7 +374,7 @@ export const data = [
     writters: "Stephen King ● Gary Dauberman",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8moTOzunF7p40oR5XhlDvJckOSW.jpg",
-      castLink:"https://www.imdb.com/title/tt7349950/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt7349950/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "14",
@@ -403,7 +403,7 @@ export const data = [
     writters: "Debbie Moon",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/1T6RpaNQQ82qVmxtDvkVJuEdolQ.jpg",
-      castLink:"https://www.imdb.com/title/tt2321596/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt2321596/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "15",
@@ -432,7 +432,7 @@ export const data = [
     writters: "Brian Lynch",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/c7xTZ9EA6GpH72xJC5s0x0KKR1a.jpg",
-      castLink:"https://www.imdb.com/title/tt2293640/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt2293640/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "16",
@@ -461,7 +461,7 @@ export const data = [
     writters: "Alex Hirsch",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/cKVI3X6DGhzfAtNbZDyj8RcTWBq.jpg",
-      castLink:"https://www.imdb.com/title/tt1865718/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1865718/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "17",
@@ -490,7 +490,7 @@ export const data = [
     writters: "Gavin O'Connor ● Anthony Tambakis ● Cliff Dorfman",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/1PnRPz4A4AguUEVOTcprIyctrax.jpg",
-      castLink:"https://www.imdb.com/title/tt1291584/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1291584/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "18",
@@ -519,7 +519,7 @@ export const data = [
     writters: "Pendleton Ward",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/pe4B3OYBb7qYCdkAz7nKWordbls.jpg",
-      castLink:"https://www.imdb.com/title/tt1305826/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1305826/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "19",
@@ -548,7 +548,7 @@ export const data = [
     writters: "Sacha Baron Cohen ● Alec Berg ● David Mandel",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/jWq20KNbg5txb28tLxJl0yLYuxp.jpg",
-      castLink:"https://www.imdb.com/title/tt1645170/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1645170/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "20",
@@ -577,7 +577,7 @@ export const data = [
     writters: "J.G. Quintel",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/5iWJwQPBusPTV7G7n5TABNRP7tO.jpg",
-      castLink:"https://www.imdb.com/title/tt1710308/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1710308/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "21",
@@ -606,7 +606,7 @@ export const data = [
     writters: "Sam Esmail",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/1SEVAgbaah9wE5xoLt4qWPMBdpL.jpg",
-      castLink:"https://www.imdb.com/title/tt4158110/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt4158110/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "22",
@@ -635,7 +635,7 @@ export const data = [
     writters: "Rawson Marshall Thurber",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/dK12GIdhGP6NPGFssK2Fh265jyr.jpg",
-      castLink:"https://www.imdb.com/title/tt7991608/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt7991608/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "23",
@@ -664,7 +664,7 @@ export const data = [
     writters: "Zak Olkewicz ● Kôtarô Isaka",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/y2Ca1neKke2mGPMaHzlCNDVZqsK.jpg",
-      castLink:"https://www.imdb.com/title/tt12593682/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt12593682/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "24",
@@ -693,7 +693,7 @@ export const data = [
     writters: "Matthew Sand ● J. Michael Straczynski",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/xdIsccWAECo0YF9aTrPoMFUZiJo.jpg",
-      castLink:"https://www.imdb.com/title/tt1186367/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1186367/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "25",
@@ -722,7 +722,7 @@ export const data = [
     writters: "Jon Bokenkamp",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/dDPwCyZG8arYwMDoQl0sm4xccCE.jpg",
-      castLink:"https://www.imdb.com/title/tt2741602/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt2741602/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "26",
@@ -751,7 +751,7 @@ export const data = [
     writters: "Darren Star",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/xkKIruOg4NoADdPjJJrvfiJHRdZ.jpg",
-      castLink:"https://www.imdb.com/title/tt8962124/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt8962124/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "27",
@@ -780,7 +780,7 @@ export const data = [
     writters: "Hwang Dong-hyuk",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/xYTnihl7qffiLSZ6yLMSpBkPdXC.jpg",
-      castLink:"https://www.imdb.com/title/tt10919420/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt10919420/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "28",
@@ -809,7 +809,7 @@ export const data = [
     writters: "Derek Kolstad",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/7dzngS8pLkGJpyeskCFcjPO9qLF.jpg",
-      castLink:"https://www.imdb.com/title/tt2911666/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt2911666/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "29",
@@ -838,7 +838,7 @@ export const data = [
     writters: "Jonathan Lisco",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/eQJwfyMqSra10ck8HOoiCrbQR32.jpg",
-      castLink:"https://www.imdb.com/title/tt5574490/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt5574490/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "30",
@@ -867,7 +867,7 @@ export const data = [
     writters: "Rebecca Sugar",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/t4I93vdFYURRHAypiF3LjSQ2TZj.jpg",
-      castLink:"https://www.imdb.com/title/tt3061046/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt3061046/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "31",
@@ -896,7 +896,7 @@ export const data = [
     writters: "Guy Ritchie ● Ivan Atkinson ● Marn Davies",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/tintsaQ0WLzZsTMkTiqtMB3rfc8.jpg",
-      castLink:"https://www.imdb.com/title/tt8367814/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt8367814/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "32",
@@ -925,7 +925,7 @@ export const data = [
     writters: "William Hanna ● Joseph Barbera ● Kevin Costello",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/9ns9463dwOeo1CK1JU2wirL5Yi1.jpg",
-      castLink:"https://www.imdb.com/title/tt1361336/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1361336/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "33",
@@ -954,7 +954,7 @@ export const data = [
     writters: "Steve Lightfoot",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/j5aOOtsJinQtyRaqiB12TTRHdeX.jpg",
-      castLink:"https://www.imdb.com/title/tt5675620/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt5675620/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "34",
@@ -983,7 +983,7 @@ export const data = [
     writters: "David Leslie Johnson-McGoldrick ● Will Beall ● Geoff Johns",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/skauHPLA4so9PqOuu3jhWmiWnFd.jpg",
-      castLink:"https://www.imdb.com/title/tt1477834/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1477834/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "35",
@@ -1012,7 +1012,7 @@ export const data = [
     writters: "David 'Dave' Wasson ● Chad Moldenhauer ● Jared Moldenhauer",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/gcoKL5TC1MMDVvMS7mGGeym3mpd.jpg",
-      castLink:"https://www.imdb.com/title/tt10611608/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt10611608/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "36",
@@ -1041,7 +1041,7 @@ export const data = [
     writters: "Lauren Gussis",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/dsBkVh0PWJ68ceJ58oJo63Plm63.jpg",
-      castLink:"https://www.imdb.com/title/tt6487482/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt6487482/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "37",
@@ -1070,7 +1070,7 @@ export const data = [
     writters: "Seth MacFarlane ● Alec Sulkin ● Wellesley Wild",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/wS9TiAS1WckeTS2IrFg5dRN9WQD.jpg",
-      castLink:"https://www.imdb.com/title/tt1637725/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1637725/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "38",
@@ -1099,7 +1099,7 @@ export const data = [
     writters: "Jeff Rake",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/iZu83GB1IM7VXL2X90m7iLHYUHU.jpg",
-      castLink:"https://www.imdb.com/title/tt8421350/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt8421350/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "39",
@@ -1128,7 +1128,7 @@ export const data = [
     writters: "Derek Kolstad",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/r17jFHAemzcWPPtoO0UxjIX0xas.jpg",
-      castLink:"https://www.imdb.com/title/tt4425200/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt4425200/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "40",
@@ -1157,7 +1157,7 @@ export const data = [
     writters: "Carlo Bernard ● Chris Brancato ● Doug Miro",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bT7pArYmcE91iCTec5H7pjrVbSu.jpg",
-      castLink:"https://www.imdb.com/title/tt2707408/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt2707408/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "41",
@@ -1186,7 +1186,7 @@ export const data = [
     writters: "Álex Pina",
     bgImage:
       "	https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/gFZriCkpJYsApPZEF3jhxL4yLzG.jpg",
-      castLink:"https://www.imdb.com/title/tt6468322/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt6468322/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "42",
@@ -1215,7 +1215,7 @@ export const data = [
     writters: "Ryan Coogler ● Aaron Covington ● Sylvester Stallone",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/lBX2EklMBEK5I0OIJWVJFr3DtmS.jpg",
-      castLink:"https://www.imdb.com/title/tt3076658/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt3076658/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "43",
@@ -1244,7 +1244,7 @@ export const data = [
     writters: "Chase Palmer ● Cary Joji Fukunaga ● Gary Dauberman",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/tcheoA2nPATCm2vvXw2hVQoaEFD.jpg",
-      castLink:"https://www.imdb.com/title/tt1396484/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1396484/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "44",
@@ -1273,7 +1273,7 @@ export const data = [
     writters: "Peter A. Dowling",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/7GWDrjxeBsh5onaYf5XHjIM9BA1.jpg",
-      castLink:"https://www.imdb.com/title/tt7390646/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt7390646/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "45",
@@ -1302,7 +1302,7 @@ export const data = [
     writters: "James Cameron",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
-      castLink:"https://www.imdb.com/title/tt0499549/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt0499549/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "46",
@@ -1331,7 +1331,7 @@ export const data = [
     writters: "-",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/rqbCbjB19amtOtFQbb3K2lgm2zv.jpg",
-      castLink:"https://www.imdb.com/title/tt2560140/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt2560140/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "47",
@@ -1360,7 +1360,7 @@ export const data = [
     writters: "Seth MacFarlane ● David Zuckerman",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
-      castLink:"https://www.imdb.com/title/tt0182576/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt0182576/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "48",
@@ -1389,7 +1389,7 @@ export const data = [
     writters: "Jeb Stuart",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/k47JEUTQsSMN532HRg6RCzZKBdB.jpg",
-      castLink:"https://www.imdb.com/title/tt11311302/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt11311302/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "49",
@@ -1418,7 +1418,7 @@ export const data = [
     writters: "George Miller ● Brendan McCarthy ● Nick Lathouris",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/nlCHUWjY9XWbuEUQauCBgnY8ymF.jpg",
-      castLink:"https://www.imdb.com/title/tt1392190/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1392190/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "50",
@@ -1447,7 +1447,7 @@ export const data = [
     writters: "Jeff Pinkner ● Scott Rosenberg ● Kelly Marcel",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
-      castLink:"https://www.imdb.com/title/tt1270797/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1270797/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "51",
@@ -1476,7 +1476,7 @@ export const data = [
     writters: "Derek Kolstad ● Shay Hatten ● Chris Collins",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/vVpEOvdxVBP2aV166j5Xlvb5Cdc.jpg",
-      castLink:"https://www.imdb.com/title/tt6146586/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt6146586/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "52",
@@ -1505,7 +1505,7 @@ export const data = [
     writters: "Dan Harmon ● Justin Roiland",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/uGy4DCmM33I7l86W7iCskNkvmLD.jpg",
-      castLink:"https://www.imdb.com/title/tt2861424/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt2861424/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "53",
@@ -1534,7 +1534,7 @@ export const data = [
     writters: "Chad Hayes ● Carey W. Hayes",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/ecKQlAEG95k62SMGhvX83oEqANK.jpg",
-      castLink:"https://www.imdb.com/title/tt1457767/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1457767/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "54",
@@ -1563,7 +1563,7 @@ export const data = [
     writters: "Ben Collins ● Luke Piotrowski",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/qbQ219gsHpdx33WSfdCgG9I2Xg5.jpg",
-      castLink:"https://www.imdb.com/title/tt9731534/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt9731534/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "55",
@@ -1592,7 +1592,7 @@ export const data = [
     writters: "Paul Staheli ● Fangjin Song ● Joey O'Bryan",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/2f8fkWSWOVcTlWforoVpsuaCiwI.jpg",
-      castLink:"https://www.imdb.com/title/tt6643972/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt6643972/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "56",
@@ -1621,7 +1621,7 @@ export const data = [
     writters: "Creighton Rothenberger ● Katrin Benedikt",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/6u5WHyEzphjs8wAT3JGw9Dhv180.jpg",
-      castLink:"https://www.imdb.com/title/tt2302755/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt2302755/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "57",
@@ -1650,7 +1650,7 @@ export const data = [
     writters: "-",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/nTvM4mhqNlHIvUkI1gVnW6XP7GG.jpg",
-      castLink:"https://www.imdb.com/title/tt9335498/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt9335498/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "58",
@@ -1679,7 +1679,7 @@ export const data = [
     writters: "Gary Scott Thompson ● David Leitch ● Drew Pearce",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/hpgda6P9GutvdkDX5MUJ92QG9aj.jpg",
-      castLink:"https://www.imdb.com/title/tt6806448/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt6806448/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "59",
@@ -1708,7 +1708,7 @@ export const data = [
     writters: "Justin Ware",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/vkr2KGu10vCHbK1SM5q2AtWA4TM.jpg",
-      castLink:"https://www.imdb.com/title/tt2762970/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt2762970/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "60",
@@ -1737,7 +1737,7 @@ export const data = [
     writters: "Vince Gilligan ● Peter Gould",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/hPea3Qy5Gd6z4kJLUruBbwAH8Rm.jpg",
-      castLink:"https://www.imdb.com/title/tt3032476/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt3032476/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "61",
@@ -1766,7 +1766,7 @@ export const data = [
     writters: "John Lasseter ● Joe Ranft ● Jorgen Klubien",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/sd4xN5xi8tKRPrJOWwNiZEile7f.jpg",
-      castLink:"https://www.imdb.com/title/tt0317219/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt0317219/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "62",
@@ -1795,7 +1795,7 @@ export const data = [
     writters: "Jonathan Entwistle",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/nfWhNM5VVd9a5bEGobs83TWTuLM.jpg",
-      castLink:"https://www.imdb.com/title/tt6257970/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt6257970/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "63",
@@ -1824,7 +1824,7 @@ export const data = [
     writters: "Justin Lin ● Daniel Casey ● Alfredo Botello",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/xXHZeb1yhJvnSHPzZDqee0zfMb6.jpg",
-      castLink:"https://www.imdb.com/title/tt5433138/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt5433138/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "64",
@@ -1853,7 +1853,7 @@ export const data = [
     writters: "Duncan Jones ● Charles Leavitt",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/riaO9lEYnzlmkILiLG3Y6HtJaM3.jpg",
-      castLink:"https://www.imdb.com/title/tt0803096/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt0803096/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "65",
@@ -1882,7 +1882,7 @@ export const data = [
     writters: "E.B. White ● M. Night Shyamalan ● Greg Brooker",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/pgx8VuStZl8JTzEpvz6AdUdaM2X.jpg",
-      castLink:"https://www.imdb.com/title/tt0164912/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt0164912/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "66",
@@ -1911,7 +1911,7 @@ export const data = [
     writters: "Vince Gilligan",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/yzpZVgaTZzDrAP1yVeCbKZH9jmA.jpg",
-      castLink:"https://www.imdb.com/title/tt9243946/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt9243946/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "67",
@@ -1940,7 +1940,7 @@ export const data = [
     writters: "Beau DeMayo ● Andrzej Sapkowski",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/orGlr1vHTgbDkGJPwuBjd8ncVjQ.jpg",
-      castLink:"https://www.imdb.com/title/tt11657662/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt11657662/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "68",
@@ -1969,7 +1969,7 @@ export const data = [
     writters: "C. Rothenberger ● Katrin Benedikt ● C. Gudegast",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/gYQ30Jer6qMZSKxeDmcibueeq0T.jpg",
-      castLink:"https://www.imdb.com/title/tt3300542/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt3300542/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "69",
@@ -1998,7 +1998,7 @@ export const data = [
     writters: "Matt Duffer ● Ross Duffer",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
-      castLink:"https://www.imdb.com/title/tt4574334/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt4574334/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "70",
@@ -2027,7 +2027,7 @@ export const data = [
     writters: "Eric Kripke",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/thLAoL6VeZGmCyDpCOeoxLvA8yS.jpg",
-      castLink:"https://www.imdb.com/title/tt1190634/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1190634/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "71",
@@ -2056,7 +2056,7 @@ export const data = [
     writters: "Damien Chazelle",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/oCKZAdUROqdlTcUOstqJ1gM8JQt.jpg",
-      castLink:"https://www.imdb.com/title/tt10640346/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt10640346/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "72",
@@ -2085,7 +2085,7 @@ export const data = [
     writters: "Geneva Robertson-Dworet ● Evan Daugherty",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bLJTjfbZ1c5zSNiAvGYs1Uc82ir.jpg",
-      castLink:"https://www.imdb.com/title/tt1365519/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1365519/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "73",
@@ -2114,7 +2114,7 @@ export const data = [
     writters: "Lionel Wigram ● Jeff Kleeman",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bu0LiPEWKHWViRoaFwlTAzZ8wyS.jpg",
-      castLink:"https://www.imdb.com/title/tt1638355/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1638355/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "74",
@@ -2143,7 +2143,7 @@ export const data = [
     writters: "Chris Morgan",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/dMARcKLrv0T7kVJ4iQR3vqTTdtT.jpg",
-      castLink:"https://www.imdb.com/title/tt0463985/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt0463985/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "75",
@@ -2172,7 +2172,7 @@ export const data = [
     writters: "Dan Fogelman",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/jTx4XlVsLJkDwbEQkFYwpApD556.jpg",
-      castLink:"https://www.imdb.com/title/tt1216475/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1216475/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "76",
@@ -2201,7 +2201,7 @@ export const data = [
     writters: "Alec Sulkin ● Wellesley Wild",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/xtHonIIIQXverDQM08TMQXjn9Fe.jpg",
-      castLink:"https://www.imdb.com/title/tt2637276/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt2637276/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "77",
@@ -2230,7 +2230,7 @@ export const data = [
     writters: "Todd J. Greenwald",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/7CVy5uTj3JNF8wqb2VnfQdjL07V.jpg",
-      castLink:"https://www.imdb.com/title/tt0799922/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt0799922/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "78",
@@ -2259,7 +2259,7 @@ export const data = [
     writters: "Robert Mark Kamen ● Matt Cook",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/sGqqnvOqJg2HDHrjtCPIlCwF4Mu.jpg",
-      castLink:"https://www.imdb.com/title/tt6189022/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt6189022/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "79",
@@ -2288,7 +2288,7 @@ export const data = [
     writters: "Shannon Burke ● Jonas Pate ● Josh Pate",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/5O7CEMnV5bgJEj5pxf6XlhjqatC.jpg",
-      castLink:"https://www.imdb.com/title/tt10293938/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt10293938/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "80",
@@ -2317,7 +2317,7 @@ export const data = [
     writters: "Taylor Sheridan",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/mNHRGO1gFpR2CYZdANe72kcKq7G.jpg",
-      castLink:"https://www.imdb.com/title/tt16358384/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt16358384/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "81",
@@ -2346,7 +2346,7 @@ export const data = [
     writters: "Juel Taylor ● Sylvester Stallone ● Sascha Penn",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/xTYGN1b3XkOtODryXTKgdXLtPMz.jpg",
-      castLink:"https://www.imdb.com/title/tt6343314/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt6343314/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "82",
@@ -2375,7 +2375,7 @@ export const data = [
     writters: "-",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/s0w8JbuNNxL1YgaHeDWih12C3jG.jpg",
-      castLink:"https://www.imdb.com/title/tt4508902/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt4508902/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "83",
@@ -2404,7 +2404,7 @@ export const data = [
     writters: "-",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/n5Ty1KJIRNCXlDHDjcPpUgp57tr.jpg",
-      castLink:"https://www.imdb.com/title/tt3909224/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt3909224/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "84",
@@ -2433,7 +2433,7 @@ export const data = [
     writters: "Michael Green ● Agatha Christie",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/lRbDyjI7HEaXxflFQbYpqHRGFBJ.jpg",
-      castLink:"https://www.imdb.com/title/tt7657566/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt7657566/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "85",
@@ -2462,7 +2462,7 @@ export const data = [
     writters: "Chris Morgan ● Gary Scott Thompson",
     bgImage:
       "https://www.themoviedb.org/t/p/original/lvSxooYCRuF3S2kHWXYTrcOtYco.jpg",
-      castLink:"https://www.imdb.com/title/tt1596343/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1596343/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "86",
@@ -2491,7 +2491,7 @@ export const data = [
     writters: "Brian Fee ● Ben Queen ● Eyal Podell",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/4mlS1MitcOqdPLhxEFyk9Qwf5rr.jpg",
-      castLink:"https://www.imdb.com/title/tt3606752/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt3606752/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "87",
@@ -2520,7 +2520,7 @@ export const data = [
     writters: "Scott Frank ● Allan Scott",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/34OGjFEbHj0E3lE2w0iTUVq0CBz.jpg",
-      castLink:"https://www.imdb.com/title/tt10048342/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt10048342/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "88",
@@ -2549,7 +2549,7 @@ export const data = [
     writters: "Alfred Gough ● Miles Millar",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/iHSwvRVsRyxpX7FE7GbviaDvgGZ.jpg",
-      castLink:"https://www.imdb.com/title/tt13443470/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt13443470/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "89",
@@ -2578,7 +2578,7 @@ export const data = [
     writters: "Tom McGillis ● Jennifer Pertsch",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/uesigtATJKTf38YyUPuxD5X9YGj.jpg",
-      castLink:"https://www.imdb.com/title/tt1173427/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt1173427/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "90",
@@ -2607,7 +2607,7 @@ export const data = [
     writters: "Jeff 'Swampy' Marsh ● Dan Povenmire",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/5MWFjQ3NuNtNeOE9FdrVLeNMNPs.jpg",
-      castLink:"https://www.imdb.com/title/tt0852863/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt0852863/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "91",
@@ -2636,7 +2636,7 @@ export const data = [
     writters: "Kelly Marcel ● Tom Hardy",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/vIgyYkXkg6NC2whRbYjBD7eb3Er.jpg",
-      castLink:"https://www.imdb.com/title/tt7097896/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt7097896/fullcredits?ref_=tt_cl_sm",
   },
   {
     id: "92",
@@ -2665,7 +2665,7 @@ export const data = [
     writters: "Scott Silver",
     bgImage:
       "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bfccQmQWNFQYRv4PHgCnjDu7PXn.jpg",
-      castLink:"https://www.imdb.com/title/tt0298203/fullcredits?ref_=tt_cl_sm"
+    castLink: "https://www.imdb.com/title/tt0298203/fullcredits?ref_=tt_cl_sm",
   },
 ];
 

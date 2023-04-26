@@ -3,7 +3,10 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router";
 import { BsFillBookmarkFill, BsStarFill } from "react-icons/bs";
+import { FcApproval } from "react-icons/fc";
+import { AiTwotoneDelete } from "react-icons/ai";
 import Cast from "./Cast";
+import useFavoritesStore from "../favoriteStore";
 import "./MovieDetails.scss";
 
 function MovieDetails({ data }) {
@@ -96,6 +99,72 @@ function MovieDetails({ data }) {
     setShowDropdown(false);
   };
 
+  const addFavorite = useFavoritesStore((state) => state.addFavorite);
+  const removeFavorite = useFavoritesStore((state) => state.removeFavorite);
+  const [isFavorite, setIsFavorite] = useState(false);
+
+  const [showPopup, setShowPopup] = useState(false);
+  const [popupMessage, setPopupMessage] = useState("");
+
+  const handleClick = () => {
+    if (isFavorite) {
+      removeFavorite(cardData.id);
+      setPopupMessage(
+        <div>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "0.75rem",
+            }}
+          >
+            The movie was removed succesfully
+            <AiTwotoneDelete style={{ color: "red", fontSize: "2.35rem" }} />
+          </div>
+        </div>
+      );
+    } else {
+      addFavorite(cardData.id, cardData);
+      setPopupMessage(
+        <div>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "0.75rem",
+            }}
+          >
+            The movie was added succesfully
+            <FcApproval style={{ fontSize: "2.35rem" }} />
+          </div>
+        </div>
+      );
+    }
+    setIsFavorite(!isFavorite);
+    setShowPopup(true);
+  };
+
+  const handleAddFavorite = () => {
+    handleClick();
+  };
+
+  const Popup = ({ message, closePopup }) => {
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        closePopup();
+      }, 3000);
+      return () => clearTimeout(timer);
+    }, [closePopup]);
+
+    return (
+      <div className="popup slide-bottom">
+        <div className="popup__message">{message}</div>
+      </div>
+    );
+  };
+
   // const canvaColors = {
   //   excellent: "#53c668, #054c37", // 75-100
   //   good: "#add469, #4d5e2f", // 50-100
@@ -107,6 +176,12 @@ function MovieDetails({ data }) {
   return (
     <HelmetProvider>
       <div className="details__container-bg">
+        {showPopup && (
+          <Popup
+            message={popupMessage}
+            closePopup={() => setShowPopup(false)}
+          />
+        )}
         <Helmet>
           <title>{cardData.name}</title>
         </Helmet>
@@ -168,9 +243,14 @@ function MovieDetails({ data }) {
                     <p className="details__container-about-score-users">
                       Users score
                     </p>
-                    <button className="details__container-about-score-button">
+                    <button
+                      className="details__container-about-score-button"
+                      style={{ color: isFavorite ? "#ffc107" : "#fff" }}
+                      onClick={handleAddFavorite}
+                    >
                       <BsFillBookmarkFill />
                     </button>
+
                     <button
                       className="details__container-about-score-button"
                       onMouseEnter={handleMouseEnter}

@@ -1,9 +1,11 @@
 import React from "react";
-import * as castData from "../castData";
-import "./Cast.scss";
+import * as upcomingCastData from "../upcomingCast";
+import "./UpcomingCast.scss";
 
-function Cast({ castDataId }) {
-  const cast = castData.castData.find((cast) => cast.id === castDataId);
+function UpcomingCast({ upcomingCastId }) {
+  const cast = upcomingCastData.upcomingCastData.find(
+    (cast) => cast.id === upcomingCastId
+  );
 
   return (
     <div>
@@ -104,4 +106,4 @@ function Cast({ castDataId }) {
   );
 }
 
-export default Cast;
+export default UpcomingCast;

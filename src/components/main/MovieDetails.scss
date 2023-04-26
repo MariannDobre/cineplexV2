@@ -47,6 +47,7 @@
   &-bg {
     height: 100%;
     background-color: #ced4da;
+    position: relative;
   }
 
   &-main {
@@ -573,4 +574,61 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+//
+
+.popup {
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  translate: (-50%);
+  background-color: #212121;
+  font-size: 1.75rem;
+  color: white;
+  padding: 0.75rem $padding-small;
+  border-radius: $rounded-small;
+  box-shadow: $box-shadown-small;
+  z-index: 9999;
+  word-spacing: $word-medium;
+  letter-spacing: $letter-small;
+  font-family: $font-poppins;
+}
+
+//
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 1.65s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-bottom 1.65s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(10.5rem);
+    transform: translateY(10.5rem);
+  }
+  100% {
+    -webkit-transform: translateY(2rem);
+    transform: translateY(2rem);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(10.5rem);
+    transform: translateY(10.5rem);
+  }
+  100% {
+    -webkit-transform: translateY(2rem);
+    transform: translateY(2rem);
+  }
 }
