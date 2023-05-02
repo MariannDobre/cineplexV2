@@ -2,6 +2,7 @@ export const data = [
   {
     id: "1",
     name: "Legend",
+    titleName: "Legend (2015) — Cineplex",
     nameUrl: "legend",
     year: "2015",
     duration: "2h 11m",
@@ -31,8 +32,9 @@ export const data = [
   {
     id: "2",
     name: "Vikings",
+    titleName:"Vikings (TV Series 2013-2020) — Cineplex",
     nameUrl: "vikings",
-    year: "2013",
+    year: "2013-2020",
     duration: "44m",
     type: "Action, Adventure, Drama",
     score: "81",
@@ -60,6 +62,7 @@ export const data = [
   {
     id: "3",
     name: "The Witcher",
+    titleName:"The Witcher (TV Series 2019- ) — Cineplex",
     nameUrl: "the witcher",
     year: "2019",
     duration: "1h",
@@ -89,8 +92,9 @@ export const data = [
   {
     id: "4",
     name: "Cobra Kai",
+    titleName:"Cobra Kai (TV Series 2018- ) — Cineplex",
     nameUrl: "cobra kai",
-    year: "2018-2023",
+    year: "2018-Present",
     duration: "30m",
     type: "Action, Comedy, Drama",
     score: "82",
@@ -118,6 +122,7 @@ export const data = [
   {
     id: "5",
     name: "Sweet Girl",
+    titleName:"Sweet Girl (2021) — Cineplex",
     nameUrl: "sweet girl",
     year: "2021",
     duration: "1h 50m",
@@ -147,6 +152,7 @@ export const data = [
   {
     id: "6",
     name: "Creed III",
+    titleName: "Creed III (2023) — Cineplex",
     nameUrl: "creed III",
     year: "2023",
     duration: "1h 56m",
@@ -176,6 +182,7 @@ export const data = [
   {
     id: "7",
     name: "Southpaw",
+    titleName:"Southpaw (2015) — Cineplex",
     nameUrl: "southpaw",
     year: "2015",
     duration: "2h 04m",
@@ -205,6 +212,7 @@ export const data = [
   {
     id: "8",
     name: "Split",
+    titleName:"Split (2016) — Cineplex",
     nameUrl: "split",
     year: "2016",
     duration: "1h 57m",
@@ -234,6 +242,7 @@ export const data = [
   {
     id: "9",
     name: "Peaky Blinders",
+    titleName:"Peaky Blinders (TV Series 2013-2022) — Cineplex",
     nameUrl: "peaky blinders",
     year: "2013",
     duration: "58m",
@@ -263,6 +272,7 @@ export const data = [
   {
     id: "10",
     name: "Klaus",
+    titleName:"Klaus (2019) — Cineplex",
     nameUrl: "klaus",
     year: "2019",
     duration: "1h 36m",
@@ -292,6 +302,7 @@ export const data = [
   {
     id: "11",
     name: "Breaking Bad",
+    titleName:"Breaking Bad (TV Series 2008-2013) — Cineplex",
     nameUrl: "breaking bad",
     year: "2008-2013",
     duration: "49m",
@@ -321,6 +332,7 @@ export const data = [
   {
     id: "12",
     name: "CHERNOBYL",
+    titleName:"CHERNOBYL (TV Series 2019-2019) — Cineplex",
     nameUrl: "chernobyl",
     year: "2019",
     duration: "5h 31m",
@@ -350,6 +362,7 @@ export const data = [
   {
     id: "13",
     name: "It Chapter Two",
+    titleName:"It: Chapter Two (2019) — Cineplex",
     nameUrl: "it chapter two",
     year: "2019",
     duration: "2h 49m",
@@ -379,6 +392,7 @@ export const data = [
   {
     id: "14",
     name: "Wolfblood",
+    titleName:"Wolfblood (TV Series 2012-2017) — Cineplex",
     nameUrl: "wolfblood",
     year: "2012-2017",
     duration: "30m",
@@ -408,6 +422,7 @@ export const data = [
   {
     id: "15",
     name: "Minions",
+    titleName:"Minions (2015) — Cineplex",
     nameUrl: "minions",
     year: "2015",
     duration: "1h 31m",
@@ -437,6 +452,7 @@ export const data = [
   {
     id: "16",
     name: "Gravity Falls",
+    titleName:"Gravity Falls (TV Series 2012-2016) — Cineplex",
     nameUrl: "gravity falls",
     year: "2012-2016",
     duration: "22m",
@@ -466,6 +482,7 @@ export const data = [
   {
     id: "17",
     name: "Warrior",
+    titleName:"Warrior (2011) — Cineplex",
     nameUrl: "warrior",
     year: "2011",
     duration: "2h 20m",
@@ -495,6 +512,7 @@ export const data = [
   {
     id: "18",
     name: "Adventure Time",
+    titleName:"Adventure Time (TV Series 2010-2018) — Cineplex",
     nameUrl: "adventure time",
     year: "2010-2018",
     duration: "11m",
@@ -524,6 +542,7 @@ export const data = [
   {
     id: "19",
     name: "The Dictator",
+    titleName:"The Dictator (2012) — Cineplex",
     nameUrl: "the dictator",
     year: "2012",
     duration: "1h 24m",
@@ -553,6 +572,7 @@ export const data = [
   {
     id: "20",
     name: "Regular Show",
+    titleName:"Regular Show (TV Series 2009-2017) — Cineplex",
     nameUrl: "regular show",
     year: "2009-2017",
     duration: "24m",
@@ -582,6 +602,7 @@ export const data = [
   {
     id: "21",
     name: "Mr. Robot",
+    titleName:"Mr. Robot (TV Series 2015-2019) — Cineplex",
     nameUrl: "mr. robot",
     year: "2015-2019",
     duration: "50m",
@@ -611,6 +632,7 @@ export const data = [
   {
     id: "22",
     name: "Red Notice",
+    titleName:"Red Notice (2021) — Cineplex",
     nameUrl: "red notice",
     year: "2021",
     duration: "1h 58m",
@@ -640,6 +662,7 @@ export const data = [
   {
     id: "23",
     name: "Bullet Train",
+    titleName:"Bullet Train (2022) — Cineplex",
     nameUrl: "bullet train",
     year: "2022",
     duration: "2h 07m",
@@ -669,6 +692,7 @@ export const data = [
   {
     id: "24",
     name: "Ninja Assassin",
+    titleName:"Ninja Assassin (2009) — Cineplex",
     nameUrl: "ninja assassin",
     year: "2009",
     duration: "1h 40m",
@@ -698,6 +722,7 @@ export const data = [
   {
     id: "25",
     name: "The Blacklist",
+    titleName:"The Blacklist (TV Series 2013-2023) — Cineplex",
     nameUrl: "the blacklist",
     year: "2013-2023",
     duration: "44m",
@@ -727,6 +752,7 @@ export const data = [
   {
     id: "26",
     name: "Emily in Paris",
+    titleName:"Emily in Paris (TV Series 2020- ) — Cineplex",
     nameUrl: "emily in paris",
     year: "2020-Present",
     duration: "30m",
@@ -756,6 +782,7 @@ export const data = [
   {
     id: "27",
     name: "Squid Game",
+    titleName:"Squid Game (TV Series 2021- ) — Cineplex",
     nameUrl: "squid game",
     year: "2021-Present",
     duration: "55m",
@@ -785,6 +812,7 @@ export const data = [
   {
     id: "28",
     name: "John Wick",
+    titleName:"John Wick (2014) — Cineplex",
     nameUrl: "john wick",
     year: "2014",
     duration: "1h 41m",
@@ -814,6 +842,7 @@ export const data = [
   {
     id: "29",
     name: "Animal Kingdom",
+    titleName:"Animal Kingdom (TV Series 2016-2022) — Cineplex",
     nameUrl: "animal kingdom",
     year: "2016-2022",
     duration: "50m",
@@ -843,6 +872,7 @@ export const data = [
   {
     id: "30",
     name: "Steven Universe",
+    titleName:"Steven Universe (TV Series 2013-2019) — Cineplex",
     nameUrl: "steven universe",
     year: "2013-2019",
     duration: "11m",
@@ -872,6 +902,7 @@ export const data = [
   {
     id: "31",
     name: "The Gentlemen",
+    titleName:"The Gentlemen (2019) — Cineplex",
     nameUrl: "the gentlemen",
     year: "2019",
     duration: "1h 53m",
@@ -901,6 +932,7 @@ export const data = [
   {
     id: "32",
     name: "Tom and Jerry",
+    titleName:"Tom and Jerry (2021) — Cineplex",
     nameUrl: "tom and jerry",
     year: "2021",
     duration: "1h 41m",
@@ -930,7 +962,8 @@ export const data = [
   {
     id: "33",
     name: "The Punisher",
-    nameUrl: "the punisher",
+    titleName:"Marvel: The Punisher (TV Series 2017-2019) — Cineplex",
+    nameUrl: "marvel: the punisher",
     year: "2017-2019",
     duration: "55m",
     type: "Action, Crime, Drama",
@@ -959,6 +992,7 @@ export const data = [
   {
     id: "34",
     name: "Aquaman",
+    titleName:"Aquaman (2018) — Cineplex",
     nameUrl: "aquaman",
     year: "2018",
     duration: "2h 23m",
@@ -988,6 +1022,7 @@ export const data = [
   {
     id: "35",
     name: "The Cuphead Show!",
+    titleName:"The Cuphead Show! (TV Series 2022- ) — Cineplex",
     nameUrl: "the cuphead show!",
     year: "2022-Present",
     duration: "14m",
@@ -1017,6 +1052,7 @@ export const data = [
   {
     id: "36",
     name: "Insatiable",
+    titleName:"Insatiable (TV Series 2018-2019) — Cineplex",
     nameUrl: "insatiable",
     year: "2018-2019",
     duration: "48m",
@@ -1046,6 +1082,7 @@ export const data = [
   {
     id: "37",
     name: "Ted",
+    titleName:"Ted (2012) — Cineplex",
     nameUrl: "ted",
     year: "2012",
     duration: "1h 48m",
@@ -1075,6 +1112,7 @@ export const data = [
   {
     id: "38",
     name: "Manifest",
+    titleName:"Manifest (TV Series 2018- ) — Cineplex",
     nameUrl: "manifest",
     year: "2018-Present",
     duration: "44m",
@@ -1104,6 +1142,7 @@ export const data = [
   {
     id: "39",
     name: "John Wick: Chapter 2",
+    titleName:"John Wick: Chapter 2 (2017) — Cineplex",
     nameUrl: "john wick: chapter 2",
     year: "2017",
     duration: "2h 03m",
@@ -1133,6 +1172,7 @@ export const data = [
   {
     id: "40",
     name: "Narcos",
+    titleName:"Narcos (TV Series 2015-2017) — Cineplex",
     nameUrl: "narcos",
     year: "2015-2017",
     duration: "57m",
@@ -1162,6 +1202,7 @@ export const data = [
   {
     id: "41",
     name: "Money Heist",
+    titleName:"Money Heist (TV Series 2017-2021) — Cineplex",
     nameUrl: "money heist",
     year: "2017-2021",
     duration: "1h 10m",
@@ -1191,6 +1232,7 @@ export const data = [
   {
     id: "42",
     name: "Creed",
+    titleName:"Creed (2015) — Cineplex",
     nameUrl: "creed",
     year: "2015",
     duration: "2h 13m",
@@ -1220,6 +1262,7 @@ export const data = [
   {
     id: "43",
     name: "It",
+    titleName:"It (2017) — Cineplex",
     nameUrl: "it",
     year: "2017",
     duration: "2h 15m",
@@ -1249,6 +1292,7 @@ export const data = [
   {
     id: "44",
     name: "Black and Blue",
+    titleName:"Black and Blue (2019) — Cineplex",
     nameUrl: "black and blue",
     year: "2019",
     duration: "1h 48m",
@@ -1278,6 +1322,7 @@ export const data = [
   {
     id: "45",
     name: "Avatar",
+    titleName:"Avatar (2009) — Cineplex",
     nameUrl: "avatar",
     year: "2009",
     duration: "2h 42m",
@@ -1307,6 +1352,7 @@ export const data = [
   {
     id: "46",
     name: "Shingeki no Kyojin",
+    titleName:"Shingeki no Kyojin (TV Series 2013-2023) — Cineplex",
     nameUrl: "shingeki no kyojin",
     year: "2013-2023",
     duration: "25m",
@@ -1336,6 +1382,7 @@ export const data = [
   {
     id: "47",
     name: "Family Guy",
+    titleName:"Family Guy (TV Series 1999- ) — Cineplex",
     nameUrl: "family guy",
     year: "1999-Present",
     duration: "22m",
@@ -1365,6 +1412,7 @@ export const data = [
   {
     id: "48",
     name: "Vikings: Valhalla",
+    titleName:"Vikings: Valhalla (TV Series 2022- ) — Cineplex",
     nameUrl: "vikings: valhalla",
     year: "2022-Present",
     duration: "51m",
@@ -1394,6 +1442,7 @@ export const data = [
   {
     id: "49",
     name: "Mad Max: Fury Road",
+    titleName:"Mad Max: Fury Road (2015) — Cineplex",
     nameUrl: "mad max: fury road",
     year: "2015",
     duration: "2h 01m",
@@ -1423,6 +1472,7 @@ export const data = [
   {
     id: "50",
     name: "Venom",
+    titleName:"Venom (2018) — Cineplex",
     nameUrl: "venom",
     year: "2018",
     duration: "1h 52m",
@@ -1452,6 +1502,7 @@ export const data = [
   {
     id: "51",
     name: "John Wick: Chapter 3 - Parabellum",
+    titleName:"John Wick: Chapter 3 - Parabellum (2019) — Cineplex",
     nameUrl: "john wick: chapter 3 - parabellum",
     year: "2019",
     duration: "2h 10m",
@@ -1481,6 +1532,7 @@ export const data = [
   {
     id: "52",
     name: "Rick and Morty",
+    titleName:"Rick and Morty (TV Series 2013- ) — Cineplex",
     nameUrl: "rick and morty",
     year: "2013-Present",
     duration: "23m",
@@ -1510,6 +1562,7 @@ export const data = [
   {
     id: "53",
     name: "The Conjuring",
+    titleName:"The Conjuring (2013) — Cineplex",
     nameUrl: "the conjuring",
     year: "2013",
     duration: "1h 53m",
@@ -1539,6 +1592,7 @@ export const data = [
   {
     id: "54",
     name: "The Night House",
+    titleName:"The Night House (2020) — Cineplex",
     nameUrl: "the night house",
     year: "2020",
     duration: "1h 47m",
@@ -1568,6 +1622,7 @@ export const data = [
   {
     id: "55",
     name: "Triple Threat",
+    titleName:"Triple Threat (2019) — Cineplex",
     nameUrl: "triple threat",
     year: "2019",
     type: "Action, Thriller",
@@ -1597,6 +1652,7 @@ export const data = [
   {
     id: "56",
     name: "Olympus Has Fallen",
+    titleName:"Olympus Has Fallen (2013) — Cineplex",
     nameUrl: "olympus has fallen",
     year: "2013",
     type: "Action, Thriller",
@@ -1626,6 +1682,7 @@ export const data = [
   {
     id: "57",
     name: "Kimetsu no Yaiba",
+    titleName:"Kimetsu no Yaiba (2019- ) — Cineplex",
     nameUrl: "kimetsu no yaiba",
     year: "2019-Present",
     type: "Animation, Action, Adventure",
@@ -1655,6 +1712,7 @@ export const data = [
   {
     id: "58",
     name: "Fast & Furious Presents: Hobbs & Shaw",
+    titleName:"Fast & Furious Presents: Hobbs & Shaw (2019) — Cineplex",
     nameUrl: "fast & furious presents: hobbs & shaw",
     year: "2019",
     type: "Action, Adventure, Thriller",
@@ -1684,6 +1742,7 @@ export const data = [
   {
     id: "59",
     name: "Cloud 9",
+    titleName:"Cloud 9 (2014) — Cineplex",
     nameUrl: "cloud 9",
     year: "2014",
     type: "Drama, Family, Sport",
@@ -1713,6 +1772,7 @@ export const data = [
   {
     id: "60",
     name: "Better Call Saul",
+    titleName:"Better Call Saul (TV Series 2015-2022) — Cineplex",
     nameUrl: "better call saul",
     year: "2015-2022",
     type: "Crime, Drama",
@@ -1742,6 +1802,7 @@ export const data = [
   {
     id: "61",
     name: "Cars",
+    titleName:"Cars (2006) — Cineplex",
     nameUrl: "cars",
     year: "2006",
     type: "Animation, Adventure, Comedy",
@@ -1771,6 +1832,7 @@ export const data = [
   {
     id: "62",
     name: "The End of the F***ing World",
+    titleName:"The End of the F***ing World (TV Series 2017-2019) — Cineplex",
     nameUrl: "the end of the f***ing world",
     year: "2017-2019",
     type: "Adventure, Comedy, Crime",
@@ -1800,6 +1862,7 @@ export const data = [
   {
     id: "63",
     name: "F9: The Fast Saga",
+    titleName:"F9: The Fast Saga (2021) — Cineplex",
     nameUrl: "f9: the fast saga",
     year: "2021",
     type: "Action, Crime, Thriller",
@@ -1829,6 +1892,7 @@ export const data = [
   {
     id: "64",
     name: "Warcraft",
+    titleName:"Warcraft. The Beginning (2016) — Cineplex",
     nameUrl: "warcraft",
     year: "2016",
     type: "Action, Adventure, Fantasy",
@@ -1858,6 +1922,7 @@ export const data = [
   {
     id: "65",
     name: "Stuart Little",
+    titleName:"Stuart Little (1999) — Cineplex",
     nameUrl: "stuart little",
     year: "1999",
     type: "Adventure, Comedy, Family",
@@ -1887,6 +1952,7 @@ export const data = [
   {
     id: "66",
     name: "El Camino: A Breaking Bad Movie",
+    titleName:"El Camino: A Breaking Bad Movie (2019) — Cineplex",
     nameUrl: "el camino: a breaking bad movie",
     year: "2019",
     type: "Action, Crime, Drama",
@@ -1916,6 +1982,7 @@ export const data = [
   {
     id: "67",
     name: "The Witcher: Nightmare of the Wolf",
+    titleName:"The Witcher: Nightmare of the Wolf (2021) — Cineplex",
     nameUrl: "the witcher: nightmare of the wolf",
     year: "2021",
     type: "Animation, Action, Adventure",
@@ -1945,6 +2012,7 @@ export const data = [
   {
     id: "68",
     name: "London Has Fallen",
+    titleName:"London Has Fallen (2016) — Cineplex",
     nameUrl: "london has fallen",
     year: "2016",
     type: "Action, Thriller",
@@ -1974,6 +2042,7 @@ export const data = [
   {
     id: "69",
     name: "Stranger Things",
+    titleName:"Stranger Things (TV Series 2016-2024) — Cineplex",
     nameUrl: "stranger things",
     year: "2016-2024",
     type: "Drama, Fantasy, Horror",
@@ -2003,6 +2072,7 @@ export const data = [
   {
     id: "70",
     name: "The Boys",
+    titleName:"The Boys (TV Series 2019- ) — Cineplex", 
     nameUrl: "the boys",
     year: "2019-Present",
     type: "Action, Comedy, Crime",
@@ -2032,6 +2102,7 @@ export const data = [
   {
     id: "71",
     name: "Babylon",
+    titleName:"Babylon (2022) — Cineplex",
     nameUrl: "babylon",
     year: "2022",
     type: "Comedy, Drama, History",
@@ -2061,6 +2132,7 @@ export const data = [
   {
     id: "72",
     name: "Tomb Raider",
+    titleName:"Tomb Raider (2018) — Cineplex",
     nameUrl: "tomb raider",
     year: "2018",
     type: "Action, Adventure, Comedy",
@@ -2090,6 +2162,7 @@ export const data = [
   {
     id: "73",
     name: "The Man from U.N.C.L.E.",
+    titleName:"The Man from U.N.C.L.E. (2015) — Cineplex",
     nameUrl: "the man from u.n.c.l.e.",
     year: "2015",
     type: "Action, Adventure, Comedy",
@@ -2119,6 +2192,7 @@ export const data = [
   {
     id: "74",
     name: "The Fast and the Furious: Tokyo Drift",
+    titleName:"The Fast and the Furious: Tokyo Drift (2006) — Cineplex",
     nameUrl: "the fast and the furious: tokyo drift",
     year: "2006",
     type: "Action, Crime, Thriller",
@@ -2148,6 +2222,7 @@ export const data = [
   {
     id: "75",
     name: "Cars 2",
+    titleName:"Cars 2 (2011) — Cineplex",
     nameUrl: "cars 2",
     year: "2011",
     type: "Animation, Adventure, Comedy",
@@ -2177,6 +2252,7 @@ export const data = [
   {
     id: "76",
     name: "Ted 2",
+    titleName:"Ted 2 (2015) — Cineplex",
     nameUrl: "ted 2",
     year: "2015",
     type: "Comedy",
@@ -2206,6 +2282,7 @@ export const data = [
   {
     id: "77",
     name: "Wizards of Waverly Place",
+    titleName:"Wizards of Waverly Place (TV Series 2007-2012) — Cineplex",
     nameUrl: "wizards of waverly place",
     year: "2007-2012",
     type: "Adventure, Comedy, Drama",
@@ -2235,6 +2312,7 @@ export const data = [
   {
     id: "78",
     name: "Angel Has Fallen",
+    titleName:"Angel Has Fallen (2019) — Cineplex",
     nameUrl: "angel has fallen",
     year: "2019",
     type: "Action, Thriller",
@@ -2264,6 +2342,7 @@ export const data = [
   {
     id: "79",
     name: "Outer Banks",
+    titleName:"Outer Banks (TV Series 2020- ) — Cineplex",
     nameUrl: "outer banks",
     year: "2020-Present",
     type: "Action, Crime, Drama",
@@ -2293,6 +2372,7 @@ export const data = [
   {
     id: "80",
     name: "Tulsa King",
+    titleName:"Tulsa King (TV Series 2022- ) — Cineplex",
     nameUrl: "tulsa king",
     year: "2022-Present",
     type: "Crime, Drama",
@@ -2322,6 +2402,7 @@ export const data = [
   {
     id: "81",
     name: "Creed II",
+    titleName:"Creed II (2018) — Cineplex",
     nameUrl: "creed II",
     year: "2018",
     type: "Action, Drama, Sport",
@@ -2351,6 +2432,7 @@ export const data = [
   {
     id: "82",
     name: "One Punch Man: Wanpanman",
+    titleName:"One Punch Man: Wanpanman (TV Series 2015-2019) — Cineplex",
     nameUrl: "one punch man: wanpanman",
     year: "2015-2019",
     type: "Animation, Action, Comedy",
@@ -2380,6 +2462,7 @@ export const data = [
   {
     id: "83",
     name: "Nanatsu no taizai",
+    titleName:"Nanatsu no taizai (TV Series 2014-2021) — Cineplex",
     nameUrl: "nanatsu no taizai",
     year: "2014-2021",
     type: "Animation, Action, Adventure",
@@ -2409,6 +2492,7 @@ export const data = [
   {
     id: "84",
     name: "Death on the Nile",
+    titleName:"Death on the Nile (2022) — Cineplex",
     nameUrl: "death on the nile",
     year: "2022",
     type: "Crime, Drama, Mystery",
@@ -2438,6 +2522,7 @@ export const data = [
   {
     id: "85",
     name: "Fast Five",
+    titleName:"Fast Five (2011) — Cineplex",
     nameUrl: "fast five",
     year: "2011",
     type: "Action, Crime, Thriller",
@@ -2467,6 +2552,7 @@ export const data = [
   {
     id: "86",
     name: "Cars 3",
+    titleName:"Cars 3 (2017) — Cineplex",
     nameUrl: "cars 3",
     year: "2017",
     type: "Animation, Adventure, Comedy",
@@ -2496,6 +2582,7 @@ export const data = [
   {
     id: "87",
     name: "The Queen's Gambit",
+    titleName:"The Queen's Gambit (TV Series 2020-2020) — Cineplex",
     nameUrl: "the queen's gambit",
     year: "2020",
     type: "Drama",
@@ -2525,6 +2612,7 @@ export const data = [
   {
     id: "88",
     name: "Wednesday",
+    titleName:"Wednesday (TV Series 2022- ) — Cineplex",
     nameUrl: "wednesday",
     year: "2022-Present",
     type: "Comedy, Crime, Fantasy",
@@ -2554,6 +2642,7 @@ export const data = [
   {
     id: "89",
     name: "Total Drama Island",
+    titleName:"Total Drama Island (TV Series 2007-2014) — Cineplex",
     nameUrl: "total drama island",
     year: "2007-2014",
     type: "Animation, Action, Comedy",
@@ -2583,6 +2672,7 @@ export const data = [
   {
     id: "90",
     name: "Phineas and Ferb",
+    titleName:"Phineas and Ferb (TV Series 2007-2014) — Cineplex",
     nameUrl: "phineas and ferb",
     year: "2007-2024",
     type: "Animation, Short, Action",
@@ -2612,6 +2702,7 @@ export const data = [
   {
     id: "91",
     name: "Venom: Let There Be Carnage",
+    titleName:"Venom: Let There Be Carnage (2021) — Cineplex",
     nameUrl: "venom: let there be carnage",
     year: "2021",
     type: "Action, Sci-Fi, Thriller",
@@ -2641,6 +2732,7 @@ export const data = [
   {
     id: "92",
     name: "8 Mile",
+    titleName:"8 Mile (2002) — Cineplex",
     nameUrl: "8 mile",
     year: "2002",
     type: "Drama, Music",

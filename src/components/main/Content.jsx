@@ -30,15 +30,6 @@ class Content extends Component {
     this.setState({ displayedCards: filteredCards });
   };
 
-  // onLoadMoreClick = () => {
-  //   const newIndex = this.state.index + 1;
-  //   const newData = data.slice(newIndex * 20, newIndex * 20 + 20);
-  //   this.setState({
-  //     data: [...this.state.data, ...newData],
-  //     index: newIndex,
-  //   });
-  // };
-
   onLoadMoreClick = () => {
     const newIndex = this.state.index + 1;
     const newData = data.slice(

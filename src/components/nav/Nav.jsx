@@ -1,11 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  AiFillHome,
-  AiFillStar,
-  AiFillFire,
-  AiTwotonePhone,
-} from "react-icons/ai";
+import { AiFillHome, AiFillStar, AiFillFire } from "react-icons/ai";
 import { FaUserAlt, FaFilm } from "react-icons/fa";
 import "./Nav.scss";
 
@@ -52,14 +47,6 @@ function Nav() {
         <li className="nav__container-li">
           <Link className="nav__container-li-item" to="/upcoming">
             <FaFilm /> Upcoming
-          </Link>
-        </li>
-
-        <span className="nav__container-line"></span>
-
-        <li className="nav__container-li">
-          <Link className="nav__container-li-item" to="/support">
-            <AiTwotonePhone /> Support
           </Link>
         </li>
 

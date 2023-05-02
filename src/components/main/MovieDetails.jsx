@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router";
@@ -20,9 +20,27 @@ function MovieDetails({ data }) {
     setShowTrailer(true);
   };
 
-  const closeTrailer = () => {
+  const closeTrailer = useCallback(() => {
     setShowTrailer(false);
-  };
+  }, []);
+
+  const handleKeyDown = useCallback(
+    (event) => {
+      if (event.keyCode === 27) {
+        closeTrailer();
+      }
+    },
+    [closeTrailer]
+  );
+
+  useEffect(() => {
+    if (showTrailer) {
+      document.addEventListener("keydown", handleKeyDown);
+    }
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [showTrailer, handleKeyDown]);
 
   useEffect(() => {
     const chart = document.querySelector(".user_score_chart");
@@ -183,7 +201,7 @@ function MovieDetails({ data }) {
           />
         )}
         <Helmet>
-          <title>{cardData.name}</title>
+          <title>{cardData.titleName}</title>
         </Helmet>
         {cardData && (
           <div className="details__container" style={bgImage}>

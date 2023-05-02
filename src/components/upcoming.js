@@ -2,6 +2,7 @@ export const upcomingTitles = [
   {
     id: "1",
     title: "Oppenheimer",
+    nameTitle: "Oppenheimer (2023) — Cineplex",
     year: "2023",
     duration: "Unknown",
     type: "Biography, Drama, History",
@@ -31,6 +32,7 @@ export const upcomingTitles = [
   {
     id: "2",
     title: "John Wick: Chapter 4",
+    nameTitle: "John Wick: Chapter 4 (2023) — Cineplex",
     year: "2023",
     duration: "2h 49m",
     type: "Action, Crime, Thriller",
@@ -60,6 +62,7 @@ export const upcomingTitles = [
   {
     id: "3",
     title: "Fast X",
+    nameTitle: "Fast X (2023) — Cineplex",
     year: "2023",
     duration: "2h 21m",
     type: "Action, Crime, Mystery",
@@ -89,6 +92,7 @@ export const upcomingTitles = [
   {
     id: "4",
     title: "Aquaman and the Lost Kingdom",
+    nameTitle: "Aquaman and the Lost Kingdom (2023) — Cineplex",
     year: "2023",
     duration: "Unknown",
     type: "Action, Adventure, Fantasy",
@@ -117,6 +121,7 @@ export const upcomingTitles = [
   {
     id: "5",
     title: "Ghosted",
+    nameTitle: "Ghosted (2023) — Cineplex",
     year: "2023",
     duration: "1h 56m",
     type: "Action, Adventure, Comedy",

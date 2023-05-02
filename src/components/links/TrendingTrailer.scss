@@ -1,0 +1,125 @@
+@import "../../index.scss";
+
+.trendingTrailer__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: $color-black;
+  width: 100%;
+  height: 100vh;
+
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d0d0d;
+
+    &-trailer {
+      width: 112.5rem;
+      height: 100%;
+    }
+  }
+
+  &-content {
+    padding: $padding-medium;
+    height: 80rem;
+    width: 52.5rem;
+
+    &-description {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 2.4rem;
+
+      &-poster {
+        width: 25rem;
+        height: 41.5rem;
+      }
+
+      &-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-family: $font-poppins;
+
+        &-name {
+          font-size: 1.7rem;
+          letter-spacing: $letter-small;
+          word-spacing: $word-medium;
+          font-weight: $font-semi-bold;
+          color: $color-white;
+          margin-bottom: 0.1rem;
+        }
+
+        &-year {
+          font-size: $font-small;
+          letter-spacing: $letter-small;
+          font-weight: $font-semi-bold;
+          color: $color-white;
+          margin-bottom: 0.75rem;
+        }
+
+        &-type {
+          font-size: 1.525rem;
+          font-weight: $font-regular;
+          letter-spacing: $letter-small;
+          word-spacing: $word-small;
+          color: #dee2e6;
+          margin-bottom: 2rem;
+        }
+
+        &-score {
+          font-size: 1.7rem;
+          font-weight: $font-semi-bold;
+          letter-spacing: $letter-medium;
+          word-spacing: $word-medium;
+          color: $color-white;
+
+          span {
+            font-size: 1.475rem;
+            font-weight: $font-regular;
+            letter-spacing: $letter-medium;
+            color: #dee2e6;
+          }
+        }
+      }
+    }
+
+    &-hr {
+      content: "";
+      background: #4d4d4d;
+      width: 100%;
+      height: 0.25rem;
+      border-radius: 50%;
+      display: block;
+      margin: 2rem 0;
+    }
+
+    &-about {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-family: $font-poppins;
+      gap: 1rem;
+
+      &-description {
+        font-size: $font-medium;
+        font-weight: $font-semi-bold;
+        letter-spacing: $letter-small;
+        word-spacing: $word-medium;
+        color: $color-white;
+      }
+
+      &-plot {
+        font-size: $font-small;
+        font-weight: $font-regular;
+        letter-spacing: $letter-small;
+        word-spacing: $word-medium;
+        color: #dee2e6;
+      }
+    }
+  }
+}

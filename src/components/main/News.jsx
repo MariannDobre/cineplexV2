@@ -1,10 +1,9 @@
 import React from "react";
+import { news } from "../news";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./News.scss";
-
-import { news } from "../news";
 
 function News() {
   const settings = {

@@ -4,6 +4,9 @@ import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import { BsFillBookmarkFill, BsStarFill } from "react-icons/bs";
 import UpcomingCast from "./UpcomingCast";
+import useUpcomingFavoritesStore from "../upcomingFavoriteStore";
+import { FcApproval } from "react-icons/fc";
+import { AiTwotoneDelete } from "react-icons/ai";
 
 function UpcomingDetails({ upcomingTitles }) {
   const { url } = useParams();
@@ -114,10 +117,83 @@ function UpcomingDetails({ upcomingTitles }) {
     setShowDropdown(false);
   };
 
+  //
+
+  const addUpcomingFavorite = useUpcomingFavoritesStore(
+    (state) => state.addUpcomingFavorite
+  );
+  const removeUpcomingFavorite = useUpcomingFavoritesStore(
+    (state) => state.removeUpcomingFavorite
+  );
+  const [isUpcomingFavorite, setIsUpcomingFavorite] = useState(false);
+  const [showPopup, setShowPopup] = useState(false);
+  const [popupMessage, setPopupMessage] = useState("");
+
+  const handleClick = () => {
+    if (isUpcomingFavorite) {
+      removeUpcomingFavorite(cardData.id);
+      setPopupMessage(
+        <div>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "0.75rem",
+            }}
+          >
+            The upcoming movie was removed successfully
+            <AiTwotoneDelete style={{ color: "red", fontSize: "2.35rem" }} />
+          </div>
+        </div>
+      );
+    } else {
+      addUpcomingFavorite(cardData.id, cardData);
+      setPopupMessage(
+        <div>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "0.75rem",
+            }}
+          >
+            The upcoming movie was added successfully
+            <FcApproval style={{ fontSize: "2.35rem" }} />
+          </div>
+        </div>
+      );
+    }
+    setIsUpcomingFavorite(!isUpcomingFavorite);
+    setShowPopup(true);
+  };
+
+  const UpcomingPopup = ({ message, closePopup }) => {
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        closePopup();
+      }, 3000);
+      return () => clearTimeout(timer);
+    }, [closePopup]);
+
+    return (
+      <div className="popup slide-bottom">
+        <div className="popup__message">{message}</div>
+      </div>
+    );
+  };
+
   return (
     <div className="details__container-bg">
+      {showPopup && (
+        <UpcomingPopup
+          message={popupMessage}
+          closePopup={() => setShowPopup(false)}
+        />
+      )}
       <Helmet>
-        <title>{cardData.title}</title>
+        <title>{cardData.nameTitle}</title>
       </Helmet>
       {cardData && (
         <div className="details__container" style={bgImage}>
@@ -177,7 +253,11 @@ function UpcomingDetails({ upcomingTitles }) {
                   <p className="details__container-about-score-users">
                     Users score
                   </p>
-                  <button className="details__container-about-score-button">
+                  <button
+                    className="details__container-about-score-button"
+                    style={{ color: isUpcomingFavorite ? "#ffc107" : "#fff" }}
+                    onClick={handleClick}
+                  >
                     <BsFillBookmarkFill />
                   </button>
                   <button
@@ -290,7 +370,7 @@ function UpcomingDetails({ upcomingTitles }) {
         <UpcomingCast upcomingCastId={cardData.id} />
       </div>
 
-      {console.log(cardData.castLink)}
+      {/* {console.log(cardData.castLink)} */}
 
       <div className="movieDetails__container-castLink">
         <a

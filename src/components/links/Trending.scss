@@ -1,0 +1,33 @@
+@import "../../index.scss";
+
+.trending__container {
+  display: flex;
+}
+
+.trending__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 85%;
+  height: 100vh;
+  gap: 6.5rem;
+  padding: $padding-big;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 400% 400% !important;
+  animation: animatedGradient 7.5s ease infinite;
+}

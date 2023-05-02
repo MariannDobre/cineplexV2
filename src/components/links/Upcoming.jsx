@@ -15,19 +15,30 @@ function Upcoming() {
         </Helmet>
         <Nav />
         <div className="upcoming__content">
-          <div>
-            <div className="upcoming__card">
-              {upcomingTitles.map((upcoming, index) => (
-                <div key={upcomingTitles[index].id}>
-                  <div>
-                    <p>{upcoming.title}</p>
-                    <p>{upcoming.year}</p>
-                  </div>
-                  {/* <img src={upcoming.cardImage} /> */}
-                  <Link to={`/upcoming/${upcoming.url}`}>View More</Link>
+          <div className="upcoming__content-container">
+            {upcomingTitles.map((upcoming, index) => (
+              <div key={upcomingTitles[index].id} className="upcoming__card">
+                <div className="upcoming__card-header">
+                  <p className="upcoming__card-header-title">
+                    {upcoming.title}
+                  </p>
+                  <p className="upcoming__card-header-year">
+                    ({upcoming.year})
+                  </p>
                 </div>
-              ))}
-            </div>
+                <img
+                  className="upcoming__card-img"
+                  src={upcoming.cardImage}
+                  alt="Movie Poster"
+                />
+                <Link
+                  className="upcoming__card-button"
+                  to={`/upcoming/${upcoming.url}`}
+                >
+                  View More
+                </Link>
+              </div>
+            ))}
           </div>
           <Footer />
         </div>

@@ -82,6 +82,7 @@
     cursor: pointer;
     transition: all 0.75s;
     text-decoration: none;
+    font-weight: $font-semi-bold;
 
     &:hover {
       background-color: $color-main;

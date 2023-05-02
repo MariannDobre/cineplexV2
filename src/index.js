@@ -7,11 +7,12 @@ import Profile from "./components/links/Profile";
 import Favorites from "./components/links/Favorites";
 import Trending from "./components/links/Trending";
 import Upcoming from "./components/links/Upcoming";
-import Support from "./components/links/Support";
 import MovieDetails from "./components/main/MovieDetails";
 import UpcomingDetails from "./components/main/UpcomingDetails";
+import TrendingTrailer from "./components/links/TrendingTrailer";
 import { data } from "./components/cardData";
 import { upcomingTitles } from "./components/upcoming";
+import { trendingData } from "./components/trending";
 import "./index.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -25,7 +26,6 @@ root.render(
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/trending" element={<Trending />} />
         <Route path="/upcoming" element={<Upcoming />} />
-        <Route path="/support" element={<Support />} />
         <Route
           path={`/movies/:nameUrl`}
           element={<MovieDetails data={data} />}
@@ -33,6 +33,10 @@ root.render(
         <Route
           path={`/upcoming/:url`}
           element={<UpcomingDetails upcomingTitles={upcomingTitles} />}
+        />
+        <Route
+          path="/trending/:url"
+          element={<TrendingTrailer trendingData={trendingData} />}
         />
       </Routes>
     </Router>
